@@ -1,0 +1,17 @@
+
+body{
+	font-family: Georgia, serif;
+	margin-bottom : 50px;
+	margin-left : 50px;
+	margin-right : 50px;
+	margin-top : 50px;
+	border: 10px groove white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background: azure;
+}
+.footer-size{
+	font-size : 10px;
+	font-family: Georgia, serif;
+	margin-bottom : 5px;
+}
