@@ -19,3 +19,7 @@ body{
     font-size : 15px;
     font-family: Georgia , serif;
 }
+
+.line{
+    text-decoration: line-through;
+}
