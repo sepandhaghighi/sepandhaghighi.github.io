@@ -11,7 +11,11 @@ body{
 	background: azure;
 }
 .footer-size{
-	font-size : 10px;
+	font-size : 12px;
 	font-family: Georgia, serif;
 	margin-bottom : 5px;
+}
+.link_size{
+    font-size : 15px;
+    font-family: Georgia , serif;
 }
