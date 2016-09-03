@@ -1,6 +1,6 @@
 
 body{
-	font-family: Georgia, serif;
+	font-family: Florence, cursive;
 	margin-bottom : 50px;
 	margin-left : 50px;
 	margin-right : 50px;
@@ -14,14 +14,18 @@ body{
 }
 .footer-size{
 	font-size : 12px;
-	font-family: Georgia, serif;
+	font-family: Florence, cursive;
 	margin-bottom : 5px;
 }
 .link_size{
     font-size : 15px;
-    font-family: Georgia , serif;
+    font-family: Florence, cursive;
 }
 
 .line{
     text-decoration: line-through;
+}
+
+.list{
+    white-space: pre;
 }
