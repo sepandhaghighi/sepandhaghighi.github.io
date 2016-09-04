@@ -29,3 +29,10 @@ body{
 .list{
     white-space: pre;
 }
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:chocolate;
+}
