@@ -20,6 +20,15 @@ body{
 .link_size{
     font-size : 15px;
     font-family: Florence, cursive;
+    background : linear-gradient(rgb(193, 230, 162),white);
+    padding-top: 12px;
+    margin-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 23px;
+    margin-bottom: 12px;
+}
+img{
+    margin-top: 10px;
 }
 
 .line{
