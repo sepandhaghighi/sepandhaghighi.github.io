@@ -85,6 +85,9 @@ table.menu_right{
 .main_part{
     text-align: center;
 }
+.page_change{
+    text-align: center;
+}
 
 
 @media all and (max-width: 1024px) {
