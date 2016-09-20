@@ -38,6 +38,17 @@ img{
 .list{
     white-space: pre;
 }
+button{
+    font-size:18px;
+    margin-top: 25px;
+    border-radius: 23px;
+    height: 70px;
+    width: 140px;
+    background:orange;
+    margin-bottom: 25px;
+    cursor: pointer;
+    
+}
 a{
     text-decoration: none;
     opacity: 1;
