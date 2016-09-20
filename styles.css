@@ -89,6 +89,12 @@ table.menu_right{
     text-align: center;
 }
 
+hr{
+    border-style: solid;
+    border-width: thick;
+    border-color:linear-gradient(rgb(193, 230, 162),white);
+}
+
 
 @media all and (max-width: 1024px) {
 
