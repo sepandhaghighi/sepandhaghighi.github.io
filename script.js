@@ -50,3 +50,6 @@ function prev() {
     
 }
 
+setInterval(next,15000);
+
+

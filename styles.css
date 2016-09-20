@@ -64,13 +64,79 @@ a:hover{
     background:#c1f70c;
     border-radius: 25px;
     padding:7px 7px 7px 7px;
+    margin-bottom: 20px;
 }
 .contact:hover{
     animation-name: anim;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+table.menu_right{
+    display : none;
+    border-collapse:separate;
+    border-spacing: 20px;
+    border-width:thick;
+    border-style:solid;
+    caption-side: top;
+    border-radius: 23px;
+    background:linear-gradient(orange,white);
+}
 
+.main_part{
+    text-align: center;
+}
+
+
+@media all and (max-width: 1024px) {
+
+    body{
+        background: azure;
+        color : black;
+        font-size : 40px;
+    }
+    .main_part{
+    text-align: left;
+}
+    .link_size{
+        font-size : 42px;
+        display: none;
+    }
+    table.menu_right{
+        margin-top: 100px;
+        margin-right:10px;
+        display : block;
+        float : right;
+        font-size : 32px;
+        
+    }
+    footer{
+        display: none;
+    }
+    #slidebar{
+        width: 320px;
+        height: 240px;
+    }
+
+
+}
+
+/* mobile phone */
+@media all and (max-width: 768px) {
+    body{
+        background:darkcyan;
+        font-size : 20px;
+        
+    }
+    .link_size{
+        font-size : 22px;
+        display: none;
+    }
+      table.menu_right{
+        display : block;
+        float : right;
+        font-size : 32px;
+    }
+}
 @keyframes anim{
     0%{transform:scale(4,4);}
     25%{transform:rotate(90deg);}
