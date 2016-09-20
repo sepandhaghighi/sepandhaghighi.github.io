@@ -92,7 +92,7 @@ table.menu_right{
     body{
         background: azure;
         color : black;
-        font-size : 40px;
+        font-size : 37px;
     }
     .main_part{
     text-align: left;
@@ -116,6 +116,9 @@ table.menu_right{
         width: 320px;
         height: 240px;
     }
+    .page_change{
+        display: none;
+    }
 
 
 }
@@ -124,17 +127,20 @@ table.menu_right{
 @media all and (max-width: 768px) {
     body{
         background:darkcyan;
-        font-size : 20px;
+        font-size : 37px;
         
     }
     .link_size{
-        font-size : 22px;
+        font-size : 42px;
         display: none;
     }
       table.menu_right{
         display : block;
         float : right;
         font-size : 32px;
+    }
+     .page_change{
+        display: none;
     }
 }
 @keyframes anim{
