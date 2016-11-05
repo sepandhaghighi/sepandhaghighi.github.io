@@ -69,13 +69,11 @@ a:hover{
     padding:7px 7px 7px 7px;
     margin-bottom: 20px;
 }
-.contact{
-    border:4px solid black;
-}
 .contact:hover{
     animation-name: anim;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    border-radius: 25px;
     
 }
 table.menu_right{
@@ -122,6 +120,7 @@ hr{
         background: azure;
         color : black;
         font-size : 37px;
+        font-family: monospace;
     }
     .main_part{
     text-align: left;
@@ -157,6 +156,7 @@ hr{
     body{
         background:darkcyan;
         font-size : 37px;
+        font-family:monospace;
         
     }
     .link_size{
