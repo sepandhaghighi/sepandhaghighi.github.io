@@ -70,7 +70,6 @@ a:hover{
     animation-name: anim;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    border-radius: 25px;
     
 }
 table.menu_right{
