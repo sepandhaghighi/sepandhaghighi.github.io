@@ -1,0 +1,785 @@
+@font-face {
+    font-family: "yekan";
+    src:url("fonts/Yekan.eot?#") format("eot"),    
+          url("fonts/Yekan.woff") format("woff"),
+          url("fonts/Yekan.ttf") format("truetype"); 
+}
+#body-index{
+        margin: auto;
+    height: 100%;
+    }
+#body-screen,#body-index{
+    font-family: "yekan";
+}
+
+.first-class{
+    text-align: center;
+    float: left;
+    height: 40%;
+    width: 15%;
+    padding: 10 10 10 10;
+    margin:10 10 10 50;
+    border-radius: 4px;
+    font-size: 24px;
+}
+#floor-1{
+    background-color: red;
+}
+#floor-2{
+    background-color: yellowgreen;
+}
+#floor-3{
+    background-color: red;
+}
+#floor-4{
+    background-color: orange;
+}
+#floor-5{
+    background-color: skyblue;
+}
+#floor-6{
+    background-color: yellow;
+}
+#floor-7{
+    background-color: darkgreen;
+}
+#floor-8{
+    background-color: darkgoldenrod;
+}
+#floor-9{
+    background-color: lightgoldenrodyellow;
+}
+#floor-10{
+    background-color: mediumaquamarine;
+}
+.second-class{
+    background-color: azure;
+    text-align: right;
+    padding: 10 10 10 10;
+    margin: 10 10 10 10;
+    font-size:16px;
+    border-radius: 4px;
+}
+marquee{
+    margin-top: 50px;
+    border-style: groove;
+    border-width: thin;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: deeppink;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: cornflowerblue;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+}
+.form #username,#password {
+  font-family: "yekan";
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form .checkbox{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.form #login-button {
+  font-family: "yekan";
+  text-transform: uppercase;
+  outline: 0;
+  background-color:green;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+    margin: 4px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background-color: red;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  z-index: 2;
+}
+#body-login{
+  background-color: whitesmoke;
+  font-family: "yekan";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+#login-head{
+    text-align: center;
+    background-color:white;
+    width: 360px;
+    font-size: 36px;
+    color: cornflowerblue;
+    border-radius: 5px;
+}
+#login-footer p{
+    vertical-align: center;
+    margin:auto;
+}
+#login-footer{
+    
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+    position:fixed;
+    font-size: 27px;
+    margin-top: 100px;
+    height: auto;
+}
+.form #error-message{
+    color: red;
+    font-size: 14px;
+    height: 14px;
+}
+#menu{
+    background-color: blue;
+    width: 100%;
+    height: 58px;
+    
+}
+#menu #search input{
+    float: left;
+    margin-top: 17px;
+    font-size: 20px;
+    background-color: blue;
+    border-style: none;
+    margin-left: 50px;
+    color: white;
+}
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    margin-right: 5%;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:not(:last-child):hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+.topnav a.icon{
+    display: none;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+
+
+
+
+#list-page{
+    text-align: center;
+    font-size: 42px;
+}
+#list-page a{
+    text-decoration: none;
+    color:burlywood;
+}
+.banner{
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 120px;
+    width: 100%;
+}
+.banner #topic{
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 60px;
+    vertical-align: middle;
+}
+.banner #left-image,#right-image{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: inline-block;
+}
+#body-index #page-body{
+    text-align: center;
+    margin-top: 3%;
+}
+#menu-item{
+    background-color: white;
+    height: 218px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    border-style: solid;
+    border-width:thin;
+    border-radius: 5px;
+    opacity:1;
+    transition: opacity 3s;
+    
+}
+#menu-item:hover{
+    opacity: 0.3;
+}
+#menu-item a{
+    text-decoration: none;
+}
+
+#menu-text{
+    width: 200px;
+    height: 30px;
+    background: azure;
+    text-align: center;
+}
+#map,#map-prev{
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+#map-prev img{
+    height: 400px;
+    width: 600px;
+    
+}
+#map img{
+
+    height: 55%;
+    width: 60%;
+}
+
+/* When the input field gets focus, change its width to 100% */
+
+#page-body #table-banner,#map-banner{
+    border:1px solid black;
+    border-radius: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+}
+#page-body #table-banner,#map-banner p{
+    margin-top:2px;
+    vertical-align: middle;
+}
+#search input[type=text]:focus {
+    width: 98%;
+}
+
+#week-table table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+#week-table td{
+    width: 120px;
+    text-align: center;
+}
+#week-table{
+    text-align: center;
+    margin-left: 24%;
+    margin-bottom: 100px;
+}
+
+#week-table .fix td{
+    height: 20px;
+    text-align: center;
+}
+#week-table .place td{
+    height: 40px;
+}
+#week-table .hour td{
+    height: 50px;
+}
+#mobile-table{
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 4%;
+    font-size:40px;
+}
+#mobile-table table tr td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.rotate-hour div{
+    transform: rotate(90deg);
+    text-align: center;
+}
+
+#mobile-table td{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 31px
+}
+#mobile-table .rotate-hour{
+    width: 37px;
+}
+#mobile-table .place{
+    border-top: 1px dashed black;
+    height: 30%;
+}
+#mobile-table .fix td{
+    height: 10px;
+}
+#mobile-table .place p{
+    margin-top: 5%;
+}
+#page-body .floor-table table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+#page-body .floor-table th{
+    text-align: center;
+    font-size: 22px;
+}
+#page-body .floor-table td{
+    font-size: 20px;
+    height: 40px;
+    width: 380px;
+    padding-right: 9px;
+        text-align: center;
+}
+#page-body .floor-table{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+#page-body .floor-tables{
+    margin-left: 18.05%;
+    margin-right:18.5%;
+    margin-bottom: 100px;
+}
+.table-search input{
+    font-size: 20px;
+    width: 794px;
+    text-align: right;
+    padding-right: 10px;
+    font-family: "yekan";
+    margin-bottom: 10px;
+     border: 1px solid black;
+}
+#page-body .notif p{
+    border: 1px solid black;
+    text-align: right;
+    width: 794px;
+    padding: 8px;
+    margin: 10px auto auto auto;
+}
+#page-body .notif{
+    margin-bottom: 100px;
+}
+#page-body .table table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+    border-radius: 10px;
+    margin: auto;
+}
+#page-body .table tr td:first-child{
+    width: 130px;
+    padding: 6px;
+}
+#page-body .table tr td:not(:first-child){
+    width: 221px;
+    padding: 6px;
+}
+#page-body .table{
+    margin-top: 8px;
+    margin-bottom: 100px;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-align: right;
+    background-color: cornflowerblue;
+    border-left: 1px solid black;
+}
+
+/* The navigation menu links */
+.sidenav #user-role{
+    padding: auto;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: 0.1s;
+    background-color: cornflowerblue;
+    height: 75px;
+    border-bottom: 2px groove black;
+}
+
+.sidenav #user-role img{
+    height: 44px;
+    width: 44px;
+    margin-right: 22px;
+    margin-left: 10px;
+}
+
+.sidenav img{
+    height: 44px;
+    width: 44px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:not(:first-child){
+    margin-right: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav  #adicon {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+@import "compass/css3";
+
+.table-editable {
+  position: relative;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 80px;
+    
+  
+}
+.table-editable tr td th {
+  text-align: right;
+  
+}
+
+.table-editable td{
+    margin: auto;
+    overflow:hidden;
+}
+
+.table-editable table{
+       table-layout:fixed;
+ 
+}
+
+.table-editable .sign{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.table-remove {
+  color: #700;
+  cursor: pointer;
+  
+  &:hover {
+    color: #f00;
+  }
+}
+
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+  
+  &:hover {
+    color: #00f;
+  }
+}
+
+.table-add {
+  color: white;
+  cursor: pointer;
+  top: 8px;
+  right: 0;
+   border: 1px solid black;
+  padding: 10px;
+    background-color: green;
+    border-radius: 3px;
+    margin-left: 5px;
+  &:hover {
+    color: #0b0;
+  }
+}
+
+#search-message{
+    display: none;
+    font-size: 25px;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    
+    
+    .sidenav  #adicon {
+    font-size: 50px;
+
+}
+    .sidenav a{
+        font-size: 25;
+    }
+    
+    
+    .table-add span {
+        display: none;
+    }
+    .table-add{
+        font-size: 25;
+    }
+    .table-editable table{
+      width: 80%;
+        }  
+    
+    #page-body .table table,tr,td{
+    font-size: 27px;
+    }
+    
+    #page-body .notif p{
+    width: 80%;
+    font-size: 40px;
+   margin-top: 15px;
+    }
+    #page-body .table-search input{
+        font-size: 45;
+        width: 80%;
+        padding-right: 29px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+       
+    }
+    #page-body .floor-table td{
+        width: 100%;
+        height: auto;
+        font-size: 40;
+    }
+      #page-body .floor-table th{
+        font-size: 45;
+    }
+    #page-body #table-banner,#map-banner{
+    font-size: 35px;
+    
+    }
+    #page-body #mobile-table{
+        display: block;
+        margin-bottom: 100px;
+    }
+    #page-body #week-table{
+        display: none;
+    }
+    #menu{
+        height: 100px;
+ 
+    }
+    #menu #search input{
+        margin-top: 23px;
+        background-color: blue;
+        font-size: 50px;
+        border-style: none;
+        margin-left: 25px;
+    }
+    
+    #page-body{
+    }
+    #body-index #menu-item img{
+        display: none;
+    }
+    #body-index #menu-item{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display:block;
+        font-size: 45px;
+        margin-top: 8px;
+        border-radius: 8px;
+    }
+    #body-index #menu-item:last-child{
+        margin-bottom: 100px;
+    }
+    #body-index #menu-text{
+        text-align: center;
+        background-color: white;
+        display: inline;
+        margin: auto;
+    }
+     #body-index p{
+        margin-top: 70px;
+    }
+    .banner #left-image img{
+        display: none;
+    }
+    .banner #right-image img{
+        display: none;
+    }
+    #body-index .banner{
+        width: 100%;
+        height: auto;
+        vertical-align: center;
+    }
+    #body-index .banner #topic{
+        font-size: 70px;
+        margin-bottom: 20px;
+        vertical-align: middle;
+    }
+    #body-index #menu{
+        width: 100%;
+    }
+    #body-index #map,#map-prev{
+        height: auto;
+    }
+    #body-index #map img{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    font-size: 50px;
+    
+  }
+  .topnav.responsive {position:relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a:not(:last-child) {
+    float: none;
+    display: block;
+    text-align: right;
+    font-size: 45px;
+    margin-right: 60px;
+  }
+
+   .form #error-message{
+    color: red;
+    font-size: 50px;
+        } 
+    .login-page{
+        width: 100%;
+        padding: auto;
+        height: 100%;
+    }
+    #login-head{
+        width: 100%;
+        font-size:60px;
+        text-align: center;
+    }
+    .form {
+  position: relative;
+  background-color: cornflowerblue;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20%;
+
+  border-radius: 5px;
+}
+    .form #username,#password{
+  font-size: 42px;
+  padding:27px;
+        
+}
+.form #login-button {
+  font-family: "yekan";
+  text-transform: uppercase;
+  outline: 0;
+  background-color:green;
+  width: 100%;
+  border: 0;
+  padding: 30px;
+  color: #FFFFFF;
+  font-size: 36px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 4px;
+}
+.form .checkbox label{
+font-size: 30px;
+    margin-right: 20px;
+
+}
+    .form .checkbox input{
+        transform: scale(3);
+    }
+    #login-footer{
+        font-size: 45px;
+        height: auto;
+    }
+     #login-footer p{
+        margin: auto;
+        padding: auto;
+    }
+    #body-login{
+        background-color: cornflowerblue;
+    }
+    #menu-item:hover{
+    opacity: 1;
+}
+}
