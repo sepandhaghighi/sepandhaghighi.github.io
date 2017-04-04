@@ -184,8 +184,7 @@ marquee{
 .topnav {
     overflow: hidden;
     text-align: center;
-    margin-right: 17%;
-    
+    margin-right: 17%;  
 }
 
 /* Style the links inside the navigation bar */
@@ -303,6 +302,7 @@ marquee{
 }
 #search input[type=text]:focus {
     width: 90%;
+    
 }
 
 #week-table table,tr,td{
@@ -702,6 +702,9 @@ marquee{
     font-size: 50px;
     
   }
+    .topnav{
+        margin-right: auto;
+    }
   .topnav.responsive {position:relative;}
   .topnav.responsive a.icon {
     position: absolute;
