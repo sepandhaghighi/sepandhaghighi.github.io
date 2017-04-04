@@ -184,7 +184,7 @@ marquee{
 .topnav {
     overflow: hidden;
     text-align: center;
-    margin-right: 5%;
+    margin-right: 17%;
     
 }
 
@@ -302,7 +302,7 @@ marquee{
     vertical-align: middle;
 }
 #search input[type=text]:focus {
-    width: 98%;
+    width: 90%;
 }
 
 #week-table table,tr,td{
