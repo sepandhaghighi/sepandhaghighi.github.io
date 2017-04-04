@@ -77,6 +77,7 @@ function custom_search(){
     if (td) {
       if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
+          counter=counter+1;
           break;
       } else {
         tr[i].style.display = "none";
@@ -101,6 +102,7 @@ function all_search(){
     if (td) {
       if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
+          counter=counter+1;
           break;
       } else {
         tr[i].style.display = "none";
@@ -128,6 +130,7 @@ function notif_search(){
     for (i=0;i<p_list.length;i++){
         if (p_list[i].innerHTML.toUpperCase().indexOf(filter)>-1){
             p_list[i].style.display="";
+            counter=counter+1;
         }
         else{
             p_list[i].style.display="none";

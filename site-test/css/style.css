@@ -425,6 +425,11 @@ marquee{
 #page-body .table tr td:first-child{
     width: 130px;
     padding: 6px;
+    
+}
+#page-body .table td{
+    text-align: center;
+    font-size: 40;
 }
 #page-body .table tr td:not(:first-child){
     width: 221px;
@@ -574,7 +579,9 @@ marquee{
 
 @media all and (max-width: 1024px) {
     
-    
+    #search-message{
+    font-size: 40px;
+}
     .sidenav  #adicon {
     font-size: 50px;
 
@@ -710,6 +717,7 @@ marquee{
     position: absolute;
     right: 0;
     top: 0;
+    font-size: 60px;
   }
   
   .topnav.responsive a:not(:last-child) {
