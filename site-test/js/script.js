@@ -27,7 +27,7 @@ function myFunction() {
         x.className += " responsive";
         menu.style.height="auto";
         document.getElementById("search").style.display="none";
-        icon.innerHTML="&#x2716";
+        icon.innerHTML="&#x2716;";
     } else {
         x.className = "topnav";
         menu.style.height="100px";

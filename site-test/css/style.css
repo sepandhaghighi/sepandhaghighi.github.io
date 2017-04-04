@@ -429,7 +429,7 @@ marquee{
 }
 #page-body .table td{
     text-align: center;
-    font-size: 40;
+    font-size: 22;
 }
 #page-body .table tr td:not(:first-child){
     width: 221px;
@@ -604,7 +604,9 @@ marquee{
     #page-body .table table,tr,td{
     font-size: 27px;
     }
-    
+    #page-body .table td{
+        font-size: 42;
+    }
     #page-body .notif p{
     width: 80%;
     font-size: 40px;
