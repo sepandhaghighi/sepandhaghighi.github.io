@@ -166,6 +166,24 @@ marquee{
     font-size: 14px;
     height: 14px;
 }
+
+#email-bar #email-input{
+    text-align: right;
+    font-family: "yekan";
+    padding-right: 2px;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 2px;
+}
+#email-bar #submit-button{
+    text-align: center;
+    font-family: "yekan";
+    font-size: 20px;
+    background-color: green;
+    margin: auto;
+}
 #menu{
     background-color: blue;
     width: 100%;
@@ -310,14 +328,19 @@ marquee{
     border-collapse: collapse;
     
 }
+#week-table table{
+    table-layout: fixed;
+    width: 60%;
+    margin: auto;
+}
 #week-table td{
     width: 120px;
     text-align: center;
+    overflow:hidden;
 }
 #week-table{
     text-align: center;
-    margin-left: 24%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 #week-table .fix td{
@@ -343,6 +366,14 @@ marquee{
     border-collapse: collapse;
     text-align: center;
 }
+#mobile-table td{
+    overflow: hidden;
+    vertical-align: middle;
+}
+#mobile-table table{
+    table-layout: fixed;
+    width: 100%;
+}
 .rotate-hour div{
     transform: rotate(90deg);
     text-align: center;
@@ -350,14 +381,14 @@ marquee{
 
 #mobile-table td{
     height: 200px;
-    width: 200px;
+    width: auto;
     margin: auto;
     display: table-cell;
     vertical-align: middle;
     font-size: 31px
 }
 #mobile-table .rotate-hour{
-    width: 37px;
+    width: 100px;
 }
 #mobile-table .place{
     border-top: 1px dashed black;
@@ -582,6 +613,21 @@ marquee{
 
 @media all and (max-width: 1024px) {
     
+    
+    #email-bar #email-input{
+    font-size: 40;
+    width: 90%;
+    margin: auto;
+    border: 2px black solid;
+}
+#email-bar #submit-button{
+    font-size: 40;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 7px;
+}
+    
     #search-message{
     font-size: 40px;
 }
@@ -638,7 +684,7 @@ marquee{
     }
     #page-body #mobile-table{
         display: block;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
     #page-body #week-table{
         display: none;
