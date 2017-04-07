@@ -404,10 +404,13 @@ marquee{
     font-family: "yekan";
     margin-bottom: 10px;
      border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #page-body .notif p{
     border: 1px solid black;
-    text-align: right;
+    text-align:justify;
+    direction: rtl;
     width: 794px;
     padding: 8px;
     margin: 10px auto auto auto;
@@ -658,12 +661,12 @@ marquee{
         display: none;
     }
     #body-index #menu-item{
-        width: 100%;
+        width: 95%;
         margin: auto;
         text-align: center;
         display:block;
         font-size: 45px;
-        margin-top: 8px;
+        margin-top: 12px;
         border-radius: 8px;
     }
     #body-index #menu-item:last-child{
@@ -719,7 +722,7 @@ marquee{
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 60px;
+    font-size: 50px;
   }
   
   .topnav.responsive a:not(:last-child) {
