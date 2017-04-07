@@ -167,7 +167,7 @@ marquee{
     height: 14px;
 }
 
-#email-bar #email-input{
+#information-email #email-bar{
     text-align: right;
     font-family: "yekan";
     padding-right: 2px;
@@ -177,12 +177,24 @@ marquee{
     margin-bottom: 70px;
     margin-top: 2px;
 }
-#email-bar #submit-button{
+#information-email #submit-button{
     text-align: center;
     font-family: "yekan";
     font-size: 20px;
     background-color: green;
     margin: auto;
+}
+
+#information-name #name-bar{
+    text-align: right;
+    font-family: "yekan";
+    padding-right: 2px;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+    
 }
 #menu{
     background-color: blue;
@@ -614,19 +626,27 @@ marquee{
 @media all and (max-width: 1024px) {
     
     
-    #email-bar #email-input{
+    #information-email #email-bar{
     font-size: 40;
     width: 90%;
     margin: auto;
     border: 2px black solid;
 }
-#email-bar #submit-button{
+#information-email #submit-button{
     font-size: 40;
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
-    margin-top: 7px;
+    margin-top: 15px;
 }
+    
+    #information-name #name-bar{
+        font-size: 40;
+        width: 90%;
+        margin: auto;
+        border: 2px black solid;
+        margin-bottom: 15px;
+    }
     
     #search-message{
     font-size: 40px;
