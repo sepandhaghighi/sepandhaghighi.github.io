@@ -145,6 +145,35 @@ function notif_search(){
     
 }
 
+function admin_notif_search(){
+    var input,filter,notif,forms,i,message,counter,textarea;
+    counter=0;
+    input=document.getElementById("myinput");
+    filter=input.value.toUpperCase();
+    notif=document.getElementById("admin-notif");
+    message=document.getElementById("search-message");
+    forms=notif.getElementsByTagName("form");
+    textarea=document.getElementsByTagName("textarea");
+    for (i=0;i<textarea.length;i++){
+        
+        if (textarea[i].value.toUpperCase().indexOf(filter)>-1){
+            forms[i].style.display="";
+            counter=counter+1;
+        }
+        else{
+            forms[i].style.display="none";
+        }
+    }
+    if (counter==0){
+        message.style.display="block";
+    }
+    else{
+        message.style.display="none";
+    }
+    
+}
+
+
 
 function floor_search(){
     var input,filter,i,j,table_list,td_list,counter,message;
