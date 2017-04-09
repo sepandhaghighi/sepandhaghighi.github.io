@@ -179,16 +179,23 @@ function floor_search(){
 var $TABLE = $('#table');
 var $BTN = $('#export-btn');
 var $EXPORT = $('#export');
-
+var $NOTIFS=$('#admin-notif');
 $('.table-add').click(function () {
   var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
   $TABLE.find('table').append($clone);
 });
 
+$('.notif-add').click(function () {
+  var $clone = $NOTIFS.find('form.hide').clone(true).removeClass('hide');
+  $NOTIFS.append($clone);
+});
+
 $('.table-remove').click(function () {
   $(this).parents('tr').detach();
 });
-
+$('.notif-close-icon').click(function () {
+  $(this).parents('form').detach();
+});
 $('.table-up').click(function () {
   var $row = $(this).parents('tr');
   if ($row.index() === 1) return; // Don't go above the header
