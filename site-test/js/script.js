@@ -1,4 +1,9 @@
 
+function footer_trans(){
+    var footer;
+    footer=document.getElementById("login-footer");
+    footer.style.opacity="0.2";
+}
 function marquee_control(){
     var marquee_obj;
     var first_class;

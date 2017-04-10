@@ -59,12 +59,10 @@ textarea:focus, input:focus{
 .header{
     height: 10%;
     margin: auto;
-    vertical-align: middle;
     padding: auto;
-    font-size: auto;
 }
 .header p{
-    margin: auto;
+   margin: auto;
 }
 #floor-1{
     background-color: #FFDFBA;
@@ -142,11 +140,12 @@ background-color: #E7FFEC;
     padding-left: 10px;
     padding-right: 10px;
     width: 90%;
-    height: 89%;
+    height: 85%;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 5px;
-    font-size:12px;
+    font-size:13;
+    direction: rtl;
 }
 marquee{
     margin-top: auto;
@@ -238,11 +237,11 @@ marquee{
     margin:auto;
 }
 #login-footer{
-    
+    color: white;
     width: 100%;
     bottom: 0;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #1976D2;
     position:fixed;
     font-size: 27px;
     margin-top: 100px;
@@ -284,7 +283,8 @@ marquee{
     
 }
 #menu{
-    background-color: blue;
+    background-color: #1976D2;
+    color: white;
     width: 100%;
     height: 58px;
     
@@ -293,7 +293,7 @@ marquee{
     float: left;
     margin-top: 17px;
     font-size: 20px;
-    background-color: blue;
+    background-color: #1976D2;
     border-style: none;
     margin-left: 50px;
     color: white;
@@ -318,7 +318,7 @@ marquee{
 
 /* Change the color of links on hover */
 .topnav a:not(:last-child):hover {
-    background-color: cornflowerblue;
+    background-color: #2196F3;
     color: black;
 }
 .topnav a.icon{
@@ -341,9 +341,10 @@ marquee{
 }
 .banner{
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #2196F3;
     height: 120px;
     width: 100%;
+    color: white;
 }
 .banner #topic{
     font-size: 30px;
@@ -858,7 +859,6 @@ marquee{
     }
     #menu #search input{
         margin-top: 23px;
-        background-color: blue;
         font-size: 50px;
         border-style: none;
         margin-left: 25px;
