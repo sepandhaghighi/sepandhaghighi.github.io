@@ -54,8 +54,10 @@ textarea:focus, input:focus{
     font-size: 24;
     margin-bottom: 2px;
 }
-.first-class p{
-    height: 20%:
+.header{
+    height: 10%;
+    margin: auto;
+    margin-bottom: 0px;
 }
 #floor-1{
     background-color: #FFDFBA;
