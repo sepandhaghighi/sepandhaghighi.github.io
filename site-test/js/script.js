@@ -1,3 +1,16 @@
+
+function marquee_control(){
+    var marquee_obj;
+    var first_class;
+    marquee_obj=document.getElementById("marquee_obj");
+    first_class=document.getElementsByClassName("first-class");
+    if (marquee_obj.innerHTML.length==0){
+        marquee_obj.style.display="none";
+        for (i=0;i<first_class.length;i++){
+            first_class[i].style.height="50%";
+        }
+    }
+}
 function login(){
     var password;
     var username;
