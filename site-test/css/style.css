@@ -131,6 +131,7 @@ background-color: #E7FFEC;
 }
 .second-class{
     text-align: right;
+    padding: auto;
     padding-left: 10px;
     padding-right: 10px;
     width: 90%;
