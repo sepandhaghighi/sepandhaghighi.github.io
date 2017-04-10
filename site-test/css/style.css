@@ -54,6 +54,9 @@ textarea:focus, input:focus{
     font-size: 24;
     margin-bottom: 2px;
 }
+.first-class p{
+    height: 20%:
+}
 #floor-1{
     background-color: #FFDFBA;
 }
@@ -128,9 +131,11 @@ background-color: #E7FFEC;
     text-align: right;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 10px 10px 10px 10px;
+    width: 90%;
+    height: 80%;
+    margin: auto;
     border-radius: 5px;
-    font-size:16px;
+    font-size:12px;
 }
 marquee{
     margin-top: auto;
