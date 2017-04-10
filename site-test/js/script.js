@@ -1,9 +1,23 @@
 
-function footer_trans(){
+$(document).ready(function(){
     var footer;
     footer=document.getElementById("login-footer");
+    if ($(document).height() > $(window).height()) {
     footer.style.opacity="0.2";
 }
+});
+
+$(window).scroll(function() {
+    var footer;
+    footer=document.getElementById("login-footer");
+   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+       footer.style.opacity="1";
+   }
+    else{
+        footer.style.opacity="0.2";
+    }
+});
+
 function marquee_control(){
     var marquee_obj;
     var first_class;

@@ -301,7 +301,7 @@ marquee{
 .topnav {
     overflow: hidden;
     text-align: center;
-    margin-right: 17%;  
+    margin-right: 25%;  
 }
 
 /* Style the links inside the navigation bar */
@@ -514,7 +514,7 @@ marquee{
     height: 40px;
     width: 380px;
     padding-right: 9px;
-        text-align: center;
+    text-align: center;
 }
 #page-body .floor-table{
     display: inline-block;
@@ -523,13 +523,13 @@ marquee{
     margin-bottom: 10px;
 }
 #page-body .floor-tables{
-    margin-left: 18.05%;
-    margin-right:18.5%;
+   margin: auto;
     margin-bottom: 100px;
+    width: 55%:
 }
 .table-search input{
     font-size: 20px;
-    width: 794px;
+    width: 50%;
     text-align: right;
     padding-right: 10px;
     font-family: "yekan";
@@ -827,13 +827,14 @@ marquee{
     }
     #page-body .table-search input{
         font-size: 45;
-        width: 80%;
+        width: 95%;
         padding-right: 29px;
         margin: auto;
         margin-top: 25px;
         margin-bottom: 20px;
        
     }
+    
     #page-body .floor-table td{
         width: 100%;
         height: auto;
@@ -841,7 +842,10 @@ marquee{
     }
       #page-body .floor-table th{
         font-size: 45;
+          width: 100%;
     }
+    
+    
     #page-body #table-banner,#map-banner{
     font-size: 35px;
     
