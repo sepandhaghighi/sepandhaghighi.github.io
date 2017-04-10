@@ -51,7 +51,7 @@ textarea:focus, input:focus{
     padding: auto;
     margin:auto;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 24;
     margin-bottom: 2px;
 }
 #floor-1{
@@ -126,9 +126,8 @@ background-color: #E7FFEC;
 }
 .second-class{
     text-align: right;
-    height: auto;
     padding: 10px 10px 27% 10px;
-    margin: 10 10 10 10;
+    margin: 10px 10px 10px 10px;
     font-size:16px;
     border-radius: 5px;
 }
