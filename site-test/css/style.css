@@ -62,6 +62,10 @@ textarea:focus, input:focus{
     vertical-align: middle;
     padding: auto;
 }
+.header p{
+    margin: auto;
+    padding: auto;
+}
 #floor-1{
     background-color: #FFDFBA;
 }
