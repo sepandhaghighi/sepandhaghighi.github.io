@@ -46,59 +46,99 @@ textarea:focus, input:focus{
 .first-class{
     text-align: center;
     float: left;
-    height: 40%;
-    width: 15%;
-    padding: 10 10 10 10;
-    margin:10 10 10 50;
+    height: 48%;
+    width: 20%;
+    padding: auto;
+    margin:auto;
     border-radius: 4px;
     font-size: 24px;
 }
 #floor-1{
-    background-color: red;
+    background-color: #FFDFBA;
 }
 #floor-2{
-    background-color: yellowgreen;
+    background-color: #BAFFC9;
 }
 #floor-3{
-    background-color: red;
+    background-color: #FFB3BA;
 }
 #floor-4{
-    background-color: orange;
+    background-color: #FFFFBA;
 }
 #floor-5{
-    background-color: skyblue;
+    background-color: #BAE1FF;
 }
 #floor-6{
-    background-color: yellow;
+    background-color: #BAE1FF;
 }
 #floor-7{
-    background-color: darkgreen;
+    background-color: #FFFFBA;
 }
 #floor-8{
-    background-color: darkgoldenrod;
+    background-color: #EECBFF;
 }
 #floor-9{
-    background-color: lightgoldenrodyellow;
+    background-color: #FFDFBA;
 }
 #floor-10{
-    background-color: mediumaquamarine;
+    background-color: #BAFFC9;
+}
+#floor-1 .second-class{
+    
+background-color: #FFF4E7;
+}
+#floor-2 .second-class{
+    
+background-color: #E7FFEC;
+}
+#floor-3 .second-class{
+    
+background-color: #FFE5E7;
+}
+#floor-4 .second-class{
+    
+background-color: #FFFFE7;
+}
+#floor-5 .second-class{
+    
+background-color: #E7F5FF;
+}
+#floor-6 .second-class{
+    
+background-color: #E7F5FF;
+}
+#floor-7 .second-class{
+    
+background-color: #FFFFE7;
+}
+#floor-8 .second-class{
+    
+background-color: #F9EDFF;
+}
+#floor-9 .second-class{
+    
+background-color: #FFF4E7;
+}
+#floor-10 .second-class{
+    
+background-color: #E7FFEC;
 }
 .second-class{
-    background-color: azure;
     text-align: right;
-    padding: 10 10 10 10;
+    height: auto;
+    padding: 10px 10px 100px 10px;
     margin: 10 10 10 10;
     font-size:16px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 marquee{
-    margin-top: 50px;
-    border-style: groove;
-    border-width: thin;
+    margin-top: auto;
+    border:none;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 20px;
-    color: deeppink;
+    color: black;
+    height: auto;
 }
 
 .form {
