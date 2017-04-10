@@ -10,6 +10,9 @@
     }
 #body-screen,#body-index{
     font-family: "yekan";
+    height: 100%;
+    width: 100%;
+    margin:auto;
 }
 
 .notif-add{
@@ -52,7 +55,6 @@ textarea:focus, input:focus{
     margin:auto;
     border-radius: 4px;
     font-size: 24;
-    margin-bottom: 2px;
 }
 .header{
     height: 10%;
