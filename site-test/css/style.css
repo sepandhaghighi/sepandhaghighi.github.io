@@ -124,11 +124,18 @@ background-color: #FFF4E7;
     
 background-color: #E7FFEC;
 }
+.second-class div{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: auto;
+    padding-bottom: 80%;
+    font-size:16px;
+}
 .second-class{
     text-align: right;
-    padding: 10px 10px 60px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 10px 10px 10px 10px;
-    font-size:16px;
     border-radius: 5px;
 }
 marquee{
