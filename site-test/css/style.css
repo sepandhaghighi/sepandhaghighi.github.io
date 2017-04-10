@@ -59,8 +59,8 @@ textarea:focus, input:focus{
 .header{
     height: 10%;
     margin: auto;
+    vertical-align: middle;
     padding: auto;
-    font-size: auto;
 }
 #floor-1{
     background-color: #FFDFBA;
@@ -147,8 +147,7 @@ background-color: #E7FFEC;
 marquee{
     margin-top: auto;
     border:none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: auto;
     font-size: auto;
     color: black;
     height: auto;
