@@ -500,9 +500,10 @@ marquee{
 #mobile-table .place p{
     margin-top: 5%;
 }
-#page-body .floor-table table,tr,td{
-    border:1px solid black;
-    border-collapse: collapse;
+#page-body .floor-table table{
+    border:1px black solid;
+     border-collapse: collapse;
+    border-radius: 5px;
 }
 #page-body .floor-table th{
     text-align: center;
@@ -535,9 +536,11 @@ marquee{
      border: 1px solid black;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 5px;
 }
 #page-body .notif p{
     border: 1px solid black;
+    border-radius: 5px;
     text-align:justify;
     direction: rtl;
     width: 794px;
@@ -580,9 +583,8 @@ marquee{
     font-family: "yekan";
     overflow: hidden;
 }
-#page-body .table table,tr,td{
+#page-body .table table{
     border:1px solid black;
-    border-collapse: collapse;
     text-align: right;
     border-radius: 10px;
     margin: auto;
