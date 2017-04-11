@@ -843,6 +843,7 @@ marquee{
     
     #page-body .floor-table td{
         font-size: 40;
+        padding: 20px;
     }
       #page-body .floor-table th{
         font-size: 45;
@@ -853,7 +854,7 @@ marquee{
           width: 96%;
            table-layout: fixed;
            margin-left: 1.5%;
-           
+           margin-bottom: 30px; 
     }
     
     
