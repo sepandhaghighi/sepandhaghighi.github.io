@@ -459,8 +459,6 @@ marquee{
     display: none;
     vertical-align: middle;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 4%;
     font-size:40px;
 }
 #mobile-table table tr td{
@@ -474,7 +472,8 @@ marquee{
 }
 #mobile-table table{
     table-layout: fixed;
-    width: 100%;
+    margin: auto;
+    width: 95%;
 }
 .rotate-hour div{
     transform: rotate(90deg);
@@ -867,6 +866,7 @@ marquee{
     
     #page-body #table-banner,#map-banner{
     font-size: 35px;
+    width: 95%;
     }
     #page-body #mobile-table{
         display: block;
@@ -940,7 +940,7 @@ marquee{
     
 }
     #body-index #map img{
-        width: 90%;
+        width: 95%;
         margin-bottom: 100px;
     }
   .topnav a {display: none;}
