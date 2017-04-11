@@ -10,7 +10,7 @@ $(document).ready(function(){
 $(window).scroll(function() {
     var footer;
     footer=document.getElementById("login-footer");
-   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+   if($(window).scrollTop() + $(window).height() >= $(document).height()) {
        footer.style.opacity="1";
    }
     else{
