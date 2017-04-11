@@ -295,7 +295,7 @@ marquee{
     font-size: 20px;
     background-color: #1976D2;
     border-style: none;
-    margin-left: 50px;
+    margin-left: 24%;
     color: white;
 }
 .topnav {
@@ -535,7 +535,7 @@ marquee{
     font-family: "yekan";
     margin-bottom: 10px;
      border: 1px solid black;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
 }
@@ -826,15 +826,18 @@ marquee{
         font-size: 42;
     }
     #page-body .notif p{
-    width: 93%;
+    width: 90%;
     font-size: 40px;
-        margin: auto;
+    margin: auto;
     margin-top: 15px;
+        padding: 25;
         
     }
     #page-body .table-search input{
         font-size: 45;
         width: 95%;
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-right: 29px;
         margin: auto;
         margin-top: 25px;
