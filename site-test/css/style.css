@@ -587,6 +587,7 @@ marquee{
     border:1px solid black;
     text-align: right;
     border-radius: 10px;
+    border-collapse: collapse;
     margin: auto;
 }
 #page-body .table tr td:first-child{
@@ -606,8 +607,6 @@ marquee{
     margin: auto;
     margin-top: 8px;
     margin-bottom: 100px;
-    width: 50%;
-    
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -817,11 +816,10 @@ marquee{
       width: 80%;
         }  
     
-    #page-body .table table,tr,td{
-    font-size: 27px;
-    }
-    #page-body .table {
+    #page-body .table table {
     width: 95%;
+    margin:auto;
+    table-layout: fixed;
     }
     #page-body .table td{
         font-size: 42;
