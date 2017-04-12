@@ -1,3 +1,19 @@
+    var options = {
+    "element": "mark",
+    "className": "",
+    "exclude": [],
+    "separateWordSearch": false,
+    "accuracy": "complementary",
+    "diacritics": true,
+    "synonyms": {},
+    "iframes": false,
+    "iframesTimeout": 5000,
+    "acrossElements": false,
+    "caseSensitive": false,
+    "ignoreJoiners": false,
+    "wildcards": "disabled",
+    }
+
 
 $(document).ready(function(){
     var footer;
@@ -121,7 +137,7 @@ function custom_search(){
 }
 
 function all_search(){
-    var input,filter,table,tr,td_list,i,message,counter;
+    var input,filter,table,tr,td_list,i,message,counter,instance;
     counter=0;
     input=document.getElementById("myinput");
     message=document.getElementById("search-message");
@@ -129,11 +145,14 @@ function all_search(){
     tr=document.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
     td_list = tr[i].getElementsByTagName("td");
+        instance=new Mark(tr[i]);
+        instance.unmark(instance.innerHTML);
         for (j=0;j<td_list.length;j++){
             td=td_list[j];
     if (td) {
       if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
+          instance.mark(filter,options);
           counter=counter+1;
           break;
       } else {
@@ -152,7 +171,8 @@ function all_search(){
 }
 
 function notif_search(){
-    var input,filter,notif,p_list,i,message,counter;
+    var input,filter,notif,p_list,i,message,counter,instance;
+
     counter=0;
     input=document.getElementById("myinput");
     filter=input.value.toUpperCase();
@@ -160,12 +180,16 @@ function notif_search(){
     message=document.getElementById("search-message");
     p_list=notif.getElementsByTagName("p");
     for (i=0;i<p_list.length;i++){
+        instance=new Mark(p_list[i]);
         if (p_list[i].innerHTML.toUpperCase().indexOf(filter)>-1){
             p_list[i].style.display="";
+            instance.unmark(p_list[i].innerHTML);
+            instance.mark(filter,options);
             counter=counter+1;
         }
         else{
             p_list[i].style.display="none";
+            instance.unmark(filter);
         }
     }
     if (counter==0){
@@ -208,7 +232,7 @@ function admin_notif_search(){
 
 
 function floor_search(){
-    var input,filter,i,j,table_list,td_list,counter,message;
+    var input,filter,i,j,table_list,td_list,counter,message,instance;
     counter=0;
     input=document.getElementById("myinput");
     filter=input.value.toUpperCase();
@@ -216,8 +240,11 @@ function floor_search(){
     table_list=document.getElementsByTagName("table");
     for(i=0;i<table_list.length;i++){
         td_list=table_list[i].getElementsByTagName("td");
+        instance=new Mark(table_list[i]);
+        instance.unmark(instance.innerHTML);
         for (j=0;j<td_list.length;j++){
             if(td_list[j].innerHTML.toUpperCase().indexOf(filter)>-1){
+                instance.mark(filter,options);
                 table_list[i].style.display="";
                 counter=counter+1;
                 break;
