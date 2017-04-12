@@ -19,12 +19,14 @@ var last_search="";
 $("#db_search").focusin(function(){
     $(this).attr("placeholder", "  ... جستجو");
     document.getElementById("db_search").value=last_search;
+    document.getElementById("db_search").style.cursor="text";
 });
 
 $("#db_search").focusout(function(){
     $(this).attr("placeholder", placeholder_value);
     last_search=document.getElementById("db_search").value;
     document.getElementById("db_search").value="";
+    document.getElementById("db_search").style.cursor="pointer";
 });
 
 

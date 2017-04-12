@@ -140,19 +140,24 @@ background-color: #E7FFEC;
     padding-left: 10px;
     padding-right: 10px;
     width: 90%;
-    height: 85%;
+    height: 87%;
     margin: auto;
-    margin-bottom: 10px;
     border-radius: 5px;
     font-size:13;
     direction: rtl;
 }
+.second-class p{
+    height: 10%;
+    margin: auto;
+    margin-right: 5px;
+}
 marquee{
-    margin-top: auto;
+    margin:auto;
     border:none;
     padding: auto;
+    padding-top: 4px;
     font-size: auto;
-    color: black;
+    color: #2D343E;
     height: auto;
 }
 
@@ -162,6 +167,7 @@ marquee{
   background-color: cornflowerblue;
   max-width: 360px;
   margin: 0 auto 100px;
+    margin-bottom: 500px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -322,7 +328,7 @@ marquee{
 /* Change the color of links on hover */
 .topnav a:not(:last-child):hover {
     background-color: #2196F3;
-    color: black;
+    color: #2D343E;
 }
 .topnav a.icon{
     display: none;
@@ -413,7 +419,7 @@ marquee{
 
 #page-body #table-banner,#map-banner{
     width: 50%;
-    border:1px solid black;
+    border:1px solid #2D343E;
     border-radius: 6px;
     margin: auto;
     margin-bottom: 2%;
@@ -422,6 +428,11 @@ marquee{
 #page-body #table-banner,#map-banner p{
     margin-top:2px;
     vertical-align: middle;
+}
+
+#menu #search input[type=text]:hover {
+   cursor: pointer;
+    
 }
 #menu #search input[type=text]:focus {
     width: 51%;
@@ -433,14 +444,14 @@ marquee{
     table-layout: fixed;
     width: 50%;
     margin: auto;
-        border: 1px solid black;
+        border: 1px solid #2D343E;
     border-collapse: collapse;
 }
 #week-table td{
     width: 10%;
     text-align: center;
     overflow:hidden;
-        border: 1px solid black;
+        border: 1px solid #2D343E;
     border-collapse: collapse;
 }
 #week-table{
@@ -465,7 +476,7 @@ marquee{
     font-size:40px;
 }
 #mobile-table table tr td{
-    border:1px solid black;
+    border:1px solid #2D343E;
     border-collapse: collapse;
     text-align: center;
 }
@@ -495,7 +506,7 @@ marquee{
     width: 100px;
 }
 #mobile-table .place{
-    border-top: 1px dashed black;
+    border-top: 1px dashed #2D343E;
     height: 30%;
 }
 #mobile-table .fix td{
@@ -512,6 +523,8 @@ marquee{
 #page-body .floor-table th{
     text-align: center;
     font-size: 22px;
+    background-color: #2196F3;
+    border-radius: 20px;
 }
 #page-body .floor-table td{
     font-size: 20px;
@@ -537,14 +550,14 @@ marquee{
     padding-right: 10px;
     font-family: "yekan";
     margin-bottom: 15px;
-     border: 1px solid black;
+     border: 1px solid #2D343E;
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
     vertical-align: middle;
 }
 #page-body .notif p{
-    border: 1px solid black;
+    border: 1px solid #2D343E;
     border-radius: 5px;
     text-align:justify;
     direction: rtl;
@@ -560,7 +573,7 @@ marquee{
     margin-bottom: 100px;
 }
 #page-body .admin-notif form{
-    border: 1px solid black;
+    border: 1px solid #2D343E;
     border-collapse: collapse;
     width: 794px;
     margin: auto;
@@ -589,8 +602,6 @@ marquee{
     overflow: hidden;
 }
 #page-body .table table{
-    border:1px solid black;
-    border-collapse: collapse;
     text-align: right;
     border-radius: 10px;
     margin: auto;
@@ -598,14 +609,39 @@ marquee{
     width: 50%;
 }
 
-.table  td{
-    border-bottom:1px solid black;
-    border-collapse: collapse;
+.table td{
+    border-right: 1px solid black;
+    border-spacing: 0;
+    border-bottom: 1px solid black;
+    overflow: hidden;
 
 }
 #page-body .table tr td:first-child{
     width: 10%;
     padding: 6px;
+    border-left: 1px solid black;
+    
+}
+
+#page-body .table tr:first-child td{
+    border-top: 1px solid black;
+    
+}
+#page-body .table tr:first-child td:first-child{
+    border-top-left-radius: 5px;
+    
+}
+#page-body .table tr:first-child td:last-child{
+    border-top-right-radius: 5px;
+    
+}
+
+#page-body .table tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+    
+}
+#page-body .table tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
     
 }
 #page-body .table td{
@@ -633,7 +669,7 @@ marquee{
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     text-align: right;
     background-color: cornflowerblue;
-    border-left: 1px solid black;
+    border-left: 1px solid #2D343E;
 }
 
 /* The navigation menu links */
@@ -641,12 +677,12 @@ marquee{
     padding: auto;
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: #2D343E;
     display: block;
     transition: 0.1s;
     background-color: cornflowerblue;
     height: 75px;
-    border-bottom: 2px groove black;
+    border-bottom: 2px groove #2D343E;
 }
 
 .sidenav #user-role img{
@@ -664,7 +700,7 @@ marquee{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: #2D343E;
     display: block;
     transition: 0.1s;
 }
@@ -742,7 +778,7 @@ marquee{
   cursor: pointer;
   top: 8px;
   right: 0;
-   border: 1px solid black;
+   border: 1px solid #2D343E;
   padding: 10px;
     background-color: green;
     border-radius: 3px;
