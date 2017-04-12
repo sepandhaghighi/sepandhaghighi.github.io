@@ -429,21 +429,19 @@ marquee{
     text-align: right;
     
 }
-
-#week-table table,tr,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    
-}
 #week-table table{
     table-layout: fixed;
     width: 50%;
     margin: auto;
+        border: 1px solid black;
+    border-collapse: collapse;
 }
 #week-table td{
     width: 10%;
     text-align: center;
     overflow:hidden;
+        border: 1px solid black;
+    border-collapse: collapse;
 }
 #week-table{
     text-align: center;
@@ -508,9 +506,9 @@ marquee{
 }
 #page-body .floor-table table{
     border:1px black solid;
-     border-collapse: collapse;
-    border-radius: 5px;
+    border-radius: 20px;
 }
+
 #page-body .floor-table th{
     text-align: center;
     font-size: 22px;
@@ -592,12 +590,18 @@ marquee{
 }
 #page-body .table table{
     border:1px solid black;
+    border-collapse: collapse;
     text-align: right;
     border-radius: 10px;
-    border-collapse: collapse;
     margin: auto;
     table-layout: fixed;
     width: 50%;
+}
+
+.table  td{
+    border-bottom:1px solid black;
+    border-collapse: collapse;
+
 }
 #page-body .table tr td:first-child{
     width: 10%;
@@ -873,6 +877,8 @@ marquee{
            margin-left: 1.5%;
            margin-bottom: 30px; 
     }
+    
+    
     
     
     #page-body #table-banner,#map-banner{
