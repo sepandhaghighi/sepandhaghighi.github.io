@@ -291,12 +291,14 @@ marquee{
 }
 #menu #search input{
     float: left;
+    margin: auto;
     margin-top: 17px;
     font-size: 20px;
     background-color: #1976D2;
     border-style: none;
     margin-left: 24%;
     color: white;
+    width: 3%;
 }
 .topnav {
     overflow: hidden;
@@ -310,9 +312,9 @@ marquee{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     
 }
 
@@ -420,8 +422,9 @@ marquee{
     margin-top:2px;
     vertical-align: middle;
 }
-#search input[type=text]:focus {
-    width: 90%;
+#menu #search input[type=text]:focus {
+    width: 53%;
+    font-family: "yekan";
     
 }
 
@@ -436,7 +439,7 @@ marquee{
     margin: auto;
 }
 #week-table td{
-    width: 120px;
+    width: 10%;
     text-align: center;
     overflow:hidden;
 }
