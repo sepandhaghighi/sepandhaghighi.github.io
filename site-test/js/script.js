@@ -13,6 +13,19 @@
     "ignoreJoiners": false,
     "wildcards": "disabled",
     }
+var placeholder_value=$("#db_search").attr("placeholder");
+var last_search="";
+
+$("#db_search").focusin(function(){
+    $(this).attr("placeholder", "  ... جستجو");
+    document.getElementById("db_search").value=last_search;
+});
+
+$("#db_search").focusout(function(){
+    $(this).attr("placeholder", placeholder_value);
+    last_search=document.getElementById("db_search").value;
+    document.getElementById("db_search").value="";
+});
 
 
 $(document).ready(function(){
@@ -20,6 +33,7 @@ $(document).ready(function(){
     footer=document.getElementById("login-footer");
     if ($(document).height() > $(window).height()) {
     footer.style.opacity="0.2";
+
 }
 });
 
