@@ -594,7 +594,7 @@ marquee{
     width: 50%;
 }
 #page-body .table tr td:first-child{
-    width: 130px;
+    width: 10%;
     padding: 6px;
     
 }
@@ -603,7 +603,7 @@ marquee{
     font-size: 22;
 }
 #page-body .table tr td:not(:first-child){
-    width: 221px;
+    width: 20%;
     padding: 6px;
 }
 #page-body .table{
