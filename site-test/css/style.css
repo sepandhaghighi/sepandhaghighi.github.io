@@ -60,9 +60,12 @@ textarea:focus, input:focus{
     height: 10%;
     margin: auto;
     padding: auto;
+    overflow: hidden;
 }
 .header p{
-   margin: auto;
+    margin: auto;
+    margin-top: 2px;
+    font-size: auto;
 }
 #floor-1{
     background-color: #FFDFBA;
