@@ -593,6 +593,7 @@ marquee{
 }
 #page-body .notif .notif-body p{
     direction: rtl;
+    margin: auto;
 }
 #page-body .notif .notif-header{
     border: 1px solid black;
@@ -935,6 +936,13 @@ margin: auto;
     margin-top: 15px;
         padding: 25;
         
+    }
+    #page-body .notif .notif-header{
+         width: 90%;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 15px;
+        padding: 25;
     }
     #page-body .table-search input{
         font-size: 45;
