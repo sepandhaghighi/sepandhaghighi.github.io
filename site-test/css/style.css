@@ -394,7 +394,7 @@ marquee{
     border-width:thin;
     border-radius: 5px;
     opacity:1;
-    transition: opacity 1.5s;
+    transition: opacity 1s;
     margin-bottom: 50px;
     
 }
