@@ -191,25 +191,32 @@ function all_search(){
 }
 
 function notif_search(){
-    var input,filter,notif,p_list,i,message,counter,instance;
+    var input,filter,notif,p_list,i,message,counter,body_instance,header_instance,header_list;
 
     counter=0;
     input=document.getElementById("myinput");
     filter=input.value.toUpperCase();
     notif=document.getElementById("notif");
     message=document.getElementById("search-message");
-    p_list=notif.getElementsByTagName("p");
+    p_list=notif.getElementsByClassName("notif-body");
+    header_list=notif.getElementsByClassName("notif-header");
     for (i=0;i<p_list.length;i++){
-        instance=new Mark(p_list[i]);
-        if (p_list[i].innerHTML.toUpperCase().indexOf(filter)>-1){
+        body_instance=new Mark(p_list[i]);
+        header_instance=new Mark(header_list[i]);
+        if (p_list[i].innerHTML.toUpperCase().indexOf(filter)>-1 || header_list[i].innerHTML.toUpperCase().indexOf(filter)>-1 ){
             p_list[i].style.display="";
-            instance.unmark(p_list[i].innerHTML);
-            instance.mark(filter,options);
+            header_list[i].style.display="";
+            body_instance.unmark(p_list[i].innerHTML);
+            header_instance.unmark(header_list[i].innerHTML);
+            body_instance.mark(filter,options);
+            header_instance.mark(filter,options);
             counter=counter+1;
         }
         else{
             p_list[i].style.display="none";
-            instance.unmark(filter);
+            header_list[i].style.display="none";
+            body_instance.unmark(filter);
+            header_instance.unmark(filter);
         }
     }
     if (counter==0){
