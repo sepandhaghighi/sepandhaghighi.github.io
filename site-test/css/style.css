@@ -676,10 +676,10 @@ margin: auto;
     border-spacing: 0;
     border-bottom: 1px solid black;
     overflow: hidden;
-    color: #6C7077;
+    color: white;
     text-align: center;
     font-size: 20;
-
+    background-color: #2196F3;
 }
 #page-body .table tr td:first-child{
     width: 10%;
