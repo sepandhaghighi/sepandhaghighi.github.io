@@ -66,6 +66,7 @@ textarea:focus, input:focus{
     margin: auto;
     margin-top: 2px;
     font-size: auto;
+    color: #6C7077;
 }
 #floor-1{
     background-color: #FFDFBA;
@@ -153,6 +154,7 @@ background-color: #E7FFEC;
     height: 10%;
     margin: auto;
     margin-right: 5px;
+     color: #6C7077;
 }
 marquee{
     margin:auto;
@@ -162,15 +164,14 @@ marquee{
     font-size: auto;
     color: #2D343E;
     height: auto;
+    color: #6C7077;
 }
 
 .form {
   position: relative;
-  z-index: 1;
   background-color: cornflowerblue;
   max-width: 360px;
-  margin: 0 auto 100px;
-    margin-bottom: 500px;
+  margin: 0 auto auto;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -223,15 +224,20 @@ marquee{
 
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
+  padding: auto;
   margin: auto;
-  z-index: 2;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 #body-login{
   background-color: whitesmoke;
   font-family: "yekan";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
+  overflow-y: hidden;
+    margin: auto;
+    padding: auto;
+  margin-bottom: 1000px;
 }
 #login-head{
     text-align: center;
@@ -426,6 +432,7 @@ marquee{
     border-radius: 6px;
     margin: auto;
     margin-bottom: 2%;
+    color: #6C7077;
     
 }
 #page-body #table-banner,#map-banner p{
@@ -447,15 +454,16 @@ marquee{
     table-layout: fixed;
     width: 50%;
     margin: auto;
-        border: 1px solid #2D343E;
+    border: 1px solid #2D343E;
     border-collapse: collapse;
 }
 #week-table td{
     width: 10%;
     text-align: center;
     overflow:hidden;
-        border: 1px solid #2D343E;
+    border: 1px solid #2D343E;
     border-collapse: collapse;
+    color: #6C7077;
 }
 #week-table{
     text-align: center;
@@ -486,6 +494,7 @@ marquee{
 #mobile-table td{
     overflow: hidden;
     vertical-align: middle;
+    color: #6C7077;
 }
 #mobile-table table{
     table-layout: fixed;
@@ -528,6 +537,7 @@ marquee{
     font-size: 22px;
     background-color: #2196F3;
     border-radius: 20px;
+        color: #6C7077;
 }
 #page-body .floor-table td{
     font-size: 20px;
@@ -535,6 +545,7 @@ marquee{
     width: 380px;
     padding-right: 9px;
     text-align: right;
+    color: #6C7077;
 }
 #page-body .floor-table{
     display: inline-block;
@@ -553,7 +564,7 @@ marquee{
     padding-right: 10px;
     font-family: "yekan";
     margin-bottom: 15px;
-     border: 1px solid #2D343E;
+    border: 1px solid #2D343E;
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -567,6 +578,7 @@ marquee{
     width: 50%;
     padding: 8px;
     margin: 10px auto auto auto;
+    color: #6C7077;
 }
 #page-body .notif{
     margin-bottom: 100px;
@@ -617,6 +629,7 @@ marquee{
     border-spacing: 0;
     border-bottom: 1px solid black;
     overflow: hidden;
+    color: #6C7077;
 
 }
 #page-body .table tr td:first-child{
@@ -1033,12 +1046,15 @@ marquee{
     .login-page{
         width: 100%;
         padding: auto;
-        height: 100%;
+        margin: auto;
+        height: auto;
     }
     #login-head{
         width: 100%;
         font-size:60px;
         text-align: center;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
     .form {
   position: relative;
@@ -1087,6 +1103,8 @@ font-size: 30px;
     }
     #body-login{
         background-color: cornflowerblue;
+        overflow-y: auto;
+        margin-bottom: 100px;
     }
     #menu-item:hover{
     opacity: 1;
