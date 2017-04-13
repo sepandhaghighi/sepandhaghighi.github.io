@@ -576,16 +576,44 @@ marquee{
     border-radius: 5px;
     vertical-align: middle;
 }
-#page-body .notif p{
+#page-body .notif .notif-body{
     border: 1px solid #2D343E;
-    border-radius: 5px;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     text-align:justify;
-    direction: rtl;
+    direction: ltr;
     width: 50%;
     padding: 8px;
-    margin: 10px auto auto auto;
+    margin: 0 auto auto auto;
     color: #6C7077;
     background-color: white;
+    height: 20%;
+    overflow-y: scroll;
+}
+#page-body .notif .notif-body p{
+    direction: rtl;
+}
+#page-body .notif .notif-header{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 50%;
+    height: 3%;
+    margin: auto;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: right;
+    background-color: #2196F3;
+    color: white;
+    
+}
+#page-body .notif .notif-header p{
+    
+margin: auto;
+    
 }
 #page-body .notif{
     margin-bottom: 100px;
@@ -900,7 +928,7 @@ marquee{
     #page-body .table td{
         font-size: 42;
     }
-    #page-body .notif p{
+    #page-body .notif .notif-body{
     width: 90%;
     font-size: 40px;
     margin: auto;
