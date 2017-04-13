@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "yekan";
+    font-family: "sans";
     src:url("fonts/Yekan.eot?#") format("eot"),    
           url("fonts/Yekan.woff") format("woff"),
           url("fonts/Yekan.ttf") format("truetype"); 
@@ -9,7 +9,7 @@
     height: 100%;
     }
 #body-screen,#body-index{
-    font-family: "yekan";
+    font-family: "sans";
     height: 100%;
     width: 100%;
     margin:auto;
@@ -17,7 +17,7 @@
 
 .notif-add{
     text-align: center;
-    font-family: "yekan";
+    font-family: "sans";
     font-size: 20px;
     background-color: green;
     margin: auto;
@@ -154,7 +154,7 @@ background-color: #E7FFEC;
     height: 10%;
     margin: auto;
     margin-right: 5px;
-     color: #6C7077;
+    color: #6C7077;
 }
 marquee{
     margin:auto;
@@ -178,7 +178,7 @@ marquee{
   border-radius: 5px;
 }
 .form #username,#password {
-  font-family: "yekan";
+  font-family: "sans";
   outline: 0;
   background: #f2f2f2;
   width: 100%;
@@ -195,7 +195,7 @@ marquee{
     margin-bottom: 10px;
 }
 .form #login-button {
-  font-family: "yekan";
+  font-family: "sans";
   text-transform: uppercase;
   outline: 0;
   background-color:green;
@@ -231,7 +231,7 @@ marquee{
 }
 #body-login{
   background-color: whitesmoke;
-  font-family: "yekan";
+  font-family: "sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
   overflow-y: hidden;
@@ -270,7 +270,7 @@ marquee{
 
 #information-email #email-bar{
     text-align: right;
-    font-family: "yekan";
+    font-family: "sans";
     padding-right: 2px;
     width: 50%;
     margin: auto;
@@ -280,7 +280,7 @@ marquee{
 }
 #information-email #submit-button{
     text-align: center;
-    font-family: "yekan";
+    font-family: "sans";
     font-size: 20px;
     background-color: green;
     margin: auto;
@@ -288,7 +288,7 @@ marquee{
 
 #information-name #name-bar{
     text-align: right;
-    font-family: "yekan";
+    font-family: "sans";
     padding-right: 2px;
     width: 50%;
     margin: auto;
@@ -352,7 +352,7 @@ marquee{
 #list-page{
     text-align: center;
     font-size: 42px;
-    font-family: "yekan";
+    font-family: "sans";
 }
 #list-page a{
     text-decoration: none;
@@ -446,7 +446,7 @@ marquee{
 }
 #menu #search input[type=text]:focus {
     width: 51%;
-    font-family: "yekan";
+    font-family: "sans";
     text-align: right;
     
 }
@@ -562,7 +562,7 @@ marquee{
     width: 50%;
     text-align: right;
     padding-right: 10px;
-    font-family: "yekan";
+    font-family: "sans";
     margin-bottom: 15px;
     border: 1px solid #2D343E;
     padding-top: 10px;
@@ -613,7 +613,7 @@ marquee{
     padding-bottom: 170px;
     padding-right: 10px;
     font-size: 22;
-    font-family: "yekan";
+    font-family: "sans";
     overflow: hidden;
 }
 #page-body .table table{
@@ -1071,7 +1071,7 @@ marquee{
         
 }
 .form #login-button {
-  font-family: "yekan";
+  font-family: "sans";
   text-transform: uppercase;
   outline: 0;
   background-color:green;
