@@ -423,13 +423,13 @@ marquee{
 #map img{
 
     height: 55%;
-    width: 50%;
+    width: 70%;
 }
 
 /* When the input field gets focus, change its width to 100% */
 
 #page-body #table-banner,#map-banner{
-    width: 50%;
+    width: 70%;
     border:1px solid #2D343E;
     border-radius: 6px;
     margin: auto;
@@ -455,7 +455,7 @@ marquee{
 }
 #week-table table{
     table-layout: fixed;
-    width: 50%;
+    width: 70%;
     margin: auto;
     border: 1px solid #2D343E;
     border-collapse: collapse;
@@ -489,7 +489,6 @@ marquee{
     display: none;
     vertical-align: middle;
     text-align: center;
-    font-size:40px;
 }
 #mobile-table table tr td{
     border:1px solid #2D343E;
@@ -517,7 +516,7 @@ marquee{
     margin: auto;
     display: table-cell;
     vertical-align: middle;
-    font-size: 31px
+    font-size: 10px
 }
 #mobile-table .rotate-hour{
     width: 100px;
@@ -530,7 +529,8 @@ marquee{
     height: 10px;
 }
 #mobile-table .place p{
-    margin-top: 5%;
+    margin: auto;
+    padding: auto;
 }
 #page-body .floor-table table{
     border:1px black solid;
