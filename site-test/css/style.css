@@ -418,7 +418,7 @@ marquee{
 #menu-text{
     width: 200px;
     height: 30px;
-    background: azure;
+    background: #F5F5F5;
     text-align: center;
     margin: auto;
     padding: auto;
