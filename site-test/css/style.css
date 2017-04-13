@@ -385,7 +385,7 @@ marquee{
 }
 #menu-item{
     background-color: white;
-    height: 218px;
+    height: 138px;
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
@@ -395,20 +395,33 @@ marquee{
     border-radius: 5px;
     opacity:1;
     transition: opacity 3s;
+    margin-bottom: 50px;
     
+}
+
+#menu-item #menu-icon{
+    margin: auto;
+    padding: auto;
+    padding-top: 10px;
 }
 #menu-item:hover{
     opacity: 0.3;
 }
 #menu-item a{
     text-decoration: none;
+    color: black;
 }
+
+
+
 
 #menu-text{
     width: 200px;
     height: 30px;
     background: azure;
     text-align: center;
+    margin: auto;
+    padding: auto;
 }
 #map,#map-prev{
     text-align: center;
@@ -1016,7 +1029,7 @@ margin: auto;
     
     #page-body{
     }
-    #body-index #menu-item img{
+    #body-index #menu-item i{
         display: none;
     }
     #body-index #menu-item{
@@ -1027,6 +1040,7 @@ margin: auto;
         font-size: 45px;
         margin-top: 12px;
         border-radius: 8px;
+        height: auto;
     }
     #body-index #menu-item:last-child{
         margin-bottom: 100px;
@@ -1035,7 +1049,6 @@ margin: auto;
         text-align: center;
         background-color: white;
         display: inline;
-        margin: auto;
     }
      #body-index p{
         margin-top: 70px;
