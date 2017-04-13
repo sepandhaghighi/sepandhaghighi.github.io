@@ -658,6 +658,7 @@ margin: auto;
     margin: auto;
     table-layout: fixed;
     width: 50%;
+    background: white;
 }
 
 .table td{
@@ -666,6 +667,18 @@ margin: auto;
     border-bottom: 1px solid black;
     overflow: hidden;
     color: #6C7077;
+    text-align: center;
+    font-size: 18;
+
+}
+.table th{
+    border-right: 1px solid black;
+    border-spacing: 0;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    color: #6C7077;
+    text-align: center;
+    font-size: 20;
 
 }
 #page-body .table tr td:first-child{
@@ -674,16 +687,22 @@ margin: auto;
     border-left: 1px solid black;
     
 }
+#page-body .table tr th:first-child{
+    width: 20%;
+    padding: 6px;
+    border-left: 1px solid black;
+    
+}
 
-#page-body .table tr:first-child td{
+#page-body .table tr:first-child th{
     border-top: 1px solid black;
     
 }
-#page-body .table tr:first-child td:first-child{
+#page-body .table tr:first-child th:first-child{
     border-top-left-radius: 5px;
     
 }
-#page-body .table tr:first-child td:last-child{
+#page-body .table tr:first-child th:last-child{
     border-top-right-radius: 5px;
     
 }
@@ -696,11 +715,11 @@ margin: auto;
     border-bottom-left-radius: 5px;
     
 }
-#page-body .table td{
-    text-align: center;
-    font-size: 22;
-}
 #page-body .table tr td:not(:first-child){
+    width: 20%;
+    padding: 6px;
+}
+#page-body .table tr th:not(:first-child){
     width: 20%;
     padding: 6px;
 }
@@ -925,9 +944,6 @@ margin: auto;
     width: 95%;
     margin:auto;
     table-layout: fixed;
-    }
-    #page-body .table td{
-        font-size: 42;
     }
     #page-body .notif .notif-body{
     width: 90%;
