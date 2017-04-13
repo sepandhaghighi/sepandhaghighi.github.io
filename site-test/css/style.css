@@ -7,6 +7,7 @@
 #body-index{
         margin: auto;
     height: 100%;
+            background-color: #FAFAFA;
     }
 #body-screen,#body-index{
     font-family: "sans";
@@ -66,7 +67,7 @@ textarea:focus, input:focus{
     margin: auto;
     margin-top: 2px;
     font-size: auto;
-    color: #6C7077;
+    color: black;
 }
 #floor-1{
     background-color: #FFDFBA;
@@ -380,6 +381,7 @@ marquee{
 #body-index #page-body{
     text-align: center;
     margin-top: 3%;
+
 }
 #menu-item{
     background-color: white;
@@ -432,7 +434,8 @@ marquee{
     border-radius: 6px;
     margin: auto;
     margin-bottom: 2%;
-    color: #6C7077;
+    color: white;
+    background-color: #2196F3;
     
 }
 #page-body #table-banner,#map-banner p{
@@ -456,6 +459,7 @@ marquee{
     margin: auto;
     border: 1px solid #2D343E;
     border-collapse: collapse;
+    background-color: white;
 }
 #week-table td{
     width: 10%;
@@ -476,6 +480,7 @@ marquee{
 }
 #week-table .place td{
     height: 40px;
+    background-color: #BDBDBD;
 }
 #week-table .hour td{
     height: 50px;
@@ -536,8 +541,9 @@ marquee{
     text-align: center;
     font-size: 22px;
     background-color: #2196F3;
-    border-radius: 20px;
-        color: #6C7077;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    color: white;
 }
 #page-body .floor-table td{
     font-size: 20px;
@@ -1053,15 +1059,15 @@ marquee{
         width: 100%;
         font-size:60px;
         text-align: center;
-        padding-top: 4%;
-        padding-bottom: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     .form {
   position: relative;
   background-color: cornflowerblue;
   max-width: 100%;
   text-align: center;
-  margin-top: 20%;
+  margin :auto;
 
   border-radius: 5px;
 }

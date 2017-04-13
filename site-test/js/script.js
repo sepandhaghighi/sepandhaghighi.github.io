@@ -13,6 +13,8 @@
     "ignoreJoiners": false,
     "wildcards": "disabled",
     }
+    
+    
 var placeholder_value=$("#db_search").attr("placeholder");
 var last_search="";
 
@@ -33,9 +35,11 @@ $("#db_search").focusout(function(){
 $(document).ready(function(){
     var footer;
     footer=document.getElementById("login-footer");
+    $(".second-class").persiaNumber();
+    $(".table-search").persiaNumber();
     if ($(document).height() > $(window).height()) {
     footer.style.opacity="0.2";
-
+    
 }
 });
 
