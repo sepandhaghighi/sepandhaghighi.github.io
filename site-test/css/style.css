@@ -585,6 +585,7 @@ marquee{
     padding: 8px;
     margin: 10px auto auto auto;
     color: #6C7077;
+    background-color: white;
 }
 #page-body .notif{
     margin-bottom: 100px;
