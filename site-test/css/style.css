@@ -569,10 +569,9 @@ marquee{
     text-align: right;
     padding-right: 10px;
     font-family: "sans";
-    margin-bottom: 15px;
+    margin :auto;
     border: 1px solid #2D343E;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding: auto;
     border-radius: 5px;
     vertical-align: middle;
 }
@@ -668,7 +667,7 @@ margin: auto;
     overflow: hidden;
     color: #6C7077;
     text-align: center;
-    font-size: 18;
+    font-size: 15;
 
 }
 .table th{
