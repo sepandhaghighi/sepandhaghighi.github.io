@@ -389,11 +389,12 @@ marquee{
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 40px;
     display: inline-block;
     opacity:1;
     transition: opacity 1s;
     margin-bottom: 50px;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 5px gray;
     border-radius: 5px;
     
 }
@@ -428,8 +429,8 @@ marquee{
  
 }
 #map-prev img{
-    height: 350px;
-    width: 460px;
+    height: 300px;
+    width: 400px;
     
 }
 #map img{
