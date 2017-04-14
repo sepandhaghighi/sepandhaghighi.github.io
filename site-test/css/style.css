@@ -1043,10 +1043,10 @@ margin: auto;
     #body-index #menu-item{
         width: 95%;
         margin: auto;
+        margin-bottom: 10px;
         text-align: center;
-        display:block;
+        display:inline-block;
         font-size: 45px;
-        margin-top: 12px;
         border-radius: 8px;
         height: auto;
     }
