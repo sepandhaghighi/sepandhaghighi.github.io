@@ -385,17 +385,16 @@ marquee{
 }
 #menu-item{
     background-color: white;
-    height: 138px;
+    height: 136px;
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
     display: inline-block;
-    border-style: solid;
-    border-width:thin;
-    border-radius: 5px;
     opacity:1;
     transition: opacity 1s;
     margin-bottom: 50px;
+    box-shadow: 0 0 4px black;
+    border-radius: 5px;
     
 }
 
@@ -493,7 +492,7 @@ marquee{
 }
 #week-table .place td{
     height: 50px;
-    background-color: #BDBDBD;
+    background-color: #F5F5F5;
 }
 #week-table .hour td{
     height: 60px;
