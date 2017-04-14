@@ -1,8 +1,15 @@
 @font-face {
-    font-family: "sans";
+    font-family: "yekan";
     src:url("fonts/Yekan.eot?#") format("eot"),    
           url("fonts/Yekan.woff") format("woff"),
           url("fonts/Yekan.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "iransans";
+    src:url("fonts/Sans_medium.eot?#") format("eot"),    
+          url("fonts/Sans_medium.woff") format("woff"),
+          url("fonts/Sans_medium.ttf") format("truetype"); 
 }
 #body-index{
         margin: auto;
@@ -10,7 +17,7 @@
             background-color: #FAFAFA;
     }
 #body-screen,#body-index{
-    font-family: "sans";
+    font-family: "iransans";
     height: 100%;
     width: 100%;
     margin:auto;
@@ -18,7 +25,7 @@
 
 .notif-add{
     text-align: center;
-    font-family: "sans";
+    font-family: "yekan";
     font-size: 20px;
     background-color: green;
     margin: auto;
@@ -179,7 +186,7 @@ marquee{
   border-radius: 5px;
 }
 .form #username,#password {
-  font-family: "sans";
+  font-family: "iransans";
   outline: 0;
   background: #f2f2f2;
   width: 100%;
@@ -196,7 +203,7 @@ marquee{
     margin-bottom: 10px;
 }
 .form #login-button {
-  font-family: "sans";
+  font-family: "iransans";
   text-transform: uppercase;
   outline: 0;
   background-color:green;
@@ -232,7 +239,7 @@ marquee{
 }
 #body-login{
   background-color: whitesmoke;
-  font-family: "sans";
+  font-family: "iransans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
   overflow-y: hidden;
@@ -259,7 +266,7 @@ marquee{
     text-align: center;
     background-color: #1976D2;
     position:fixed;
-    font-size: 27px;
+    font-size: 17px;
     margin-top: 100px;
     height: auto;
 }
@@ -271,7 +278,7 @@ marquee{
 
 #information-email #email-bar{
     text-align: right;
-    font-family: "sans";
+    font-family: "yekan";
     padding-right: 2px;
     width: 50%;
     margin: auto;
@@ -281,7 +288,7 @@ marquee{
 }
 #information-email #submit-button{
     text-align: center;
-    font-family: "sans";
+    font-family: "yekan";
     font-size: 20px;
     background-color: green;
     margin: auto;
@@ -289,7 +296,7 @@ marquee{
 
 #information-name #name-bar{
     text-align: right;
-    font-family: "sans";
+    font-family: "yekan";
     padding-right: 2px;
     width: 50%;
     margin: auto;
@@ -320,7 +327,8 @@ marquee{
 .topnav {
     overflow: hidden;
     text-align: center;
-    margin-right: 25%;  
+    margin-right: 25%;
+    font-family: "iransans";
 }
 
 /* Style the links inside the navigation bar */
@@ -353,7 +361,7 @@ marquee{
 #list-page{
     text-align: center;
     font-size: 42px;
-    font-family: "sans";
+    font-family: "iransans";
 }
 #list-page a{
     text-decoration: none;
@@ -389,7 +397,7 @@ marquee{
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 25px;
     display: inline-block;
     opacity:1;
     transition: opacity 1s;
@@ -425,7 +433,7 @@ marquee{
 }
 #map,#map-prev{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
  
 }
 #map-prev img{
@@ -462,7 +470,7 @@ marquee{
 }
 #menu #search input[type=text]:focus {
     width: 51%;
-    font-family: "sans";
+    font-family: "yekan";
     text-align: right;
     
 }
@@ -581,7 +589,7 @@ marquee{
     width: 50%;
     text-align: right;
     padding-right: 10px;
-    font-family: "sans";
+    font-family: "yekan";
     margin :auto;
     border: 1px solid #2D343E;
     padding: auto;
@@ -661,7 +669,7 @@ margin: auto;
     padding-bottom: 170px;
     padding-right: 10px;
     font-size: 22;
-    font-family: "sans";
+    font-family: "yekan";
     overflow: hidden;
 }
 #page-body .table table{
@@ -680,7 +688,7 @@ margin: auto;
     overflow: hidden;
     color: #6C7077;
     text-align: center;
-    font-size: 15;
+    font-size: 14px;
 
 }
 .table th{
@@ -690,7 +698,7 @@ margin: auto;
     overflow: hidden;
     color: white;
     text-align: center;
-    font-size: 20;
+    font-size: 16px;
     background-color: #2196F3;
 }
 #page-body .table tr td:first-child{
@@ -973,7 +981,7 @@ margin: auto;
         padding: 25;
     }
     #page-body .table-search input{
-        font-size: 45;
+        font-size: 35;
         width: 95%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -1020,7 +1028,7 @@ margin: auto;
  
     }
     #menu #search input{
-        width: auto;
+        width: 20%;
         margin-top: 23px;
         font-size: 50px;
         border-style: none;
@@ -1142,7 +1150,7 @@ margin: auto;
         
 }
 .form #login-button {
-  font-family: "sans";
+  font-family: "iransans";
   text-transform: uppercase;
   outline: 0;
   background-color:green;
@@ -1165,7 +1173,7 @@ font-size: 30px;
         transform: scale(3);
     }
     #login-footer{
-        font-size: 45px;
+        font-size: 30px;
         height: auto;
     }
      #login-footer p{

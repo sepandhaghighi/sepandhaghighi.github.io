@@ -36,11 +36,15 @@ $(document).ready(function(){
     var footer;
     footer=document.getElementById("login-footer");
     $(".second-class").persiaNumber();
-    $(".table-search").persiaNumber();
+     
     if ($(document).height() > $(window).height()) {
-    footer.style.opacity="0.2";
+        footer.style.opacity="0.2";
     
 }
+    $("#login-footer").persiaNumber();
+    $("#week-table").persiaNumber();
+    $("#mobile-table").persiaNumber();
+    $(".floor-table").persiaNumber();
 });
 
 $(window).scroll(function() {
