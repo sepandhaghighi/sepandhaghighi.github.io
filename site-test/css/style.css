@@ -490,6 +490,9 @@ marquee{
     border-collapse: collapse;
     color: #6C7077;
 }
+.table td a{
+text-decoration: none;
+}
 #week-table{
     text-align: center;
     margin-bottom: 80px;
@@ -1043,7 +1046,7 @@ margin: auto;
     #body-index #menu-item{
         width: 95%;
         margin: auto;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         text-align: center;
         display:inline-block;
         font-size: 45px;
