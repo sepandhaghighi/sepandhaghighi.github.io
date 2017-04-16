@@ -16,6 +16,9 @@
     height: 100%;
             background-color: #FAFAFA;
     }
+#page-screen{
+    overflow-y:hidden;
+}
 #body-screen,#body-index{
     font-family: "iransans";
     height: 100%;
@@ -65,7 +68,7 @@ textarea:focus, input:focus{
     font-size: 24;
 }
 .header{
-    height: 10%;
+    height: auto;
     margin: auto;
     padding: auto;
     overflow: hidden;
@@ -75,92 +78,227 @@ textarea:focus, input:focus{
     margin-top: 2px;
     font-size: auto;
     color: black;
+    text-align: center;
 }
+
 #floor-1{
     background-color: #FFDFBA;
+    
+}
+.floor-1{
+    background-color: #FFDFBA;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+    float: right;
+    height: 48.5%;
+    border-radius: 5px;
+    
 }
 #floor-2{
     background-color: #BAFFC9;
 }
+.floor-2{
+    background-color: #BAFFC9;
+    width: 20%;
+    height: 48.5%;
+    float: right;
+    margin: auto;
+    padding: auto;
+    border-radius: 5px;
+}
 #floor-3{
     background-color: #FFB3BA;
+}
+.floor-3{
+    background-color: #FFB3BA;
+    margin: auto;
+    padding: auto;
+    float: right;
+    width: 20%;
+    height: 97%;
+    border-radius: 5px;
 }
 #floor-4{
     background-color: #FFFFBA;
 }
+.floor-4{
+    background-color: #FFFFBA;
+}
+
+.floor-4{
+    height: 48.5%;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+    float: right;
+    border-radius: 5px;
+}
 #floor-5{
     background-color: #BAE1FF;
+}
+.floor-b1{
+    background-color: #BAE1FF;
+    border-radius: 5px;
+    width: 20%;
+    height: 57%;
+    float: left;
+    margin: auto;
+    padding: auto;
 }
 #floor-6{
     background-color: #BAE1FF;
 }
+.floor-6{
+    background-color: #BAE1FF;
+    width: 20%;
+    height: 48.5%;
+    border-radius: 5px;
+    padding: auto;
+    float: right;
+}
 #floor-7{
     background-color: #FFFFBA;
+}
+.floor-7{
+    background-color: #FFFFBA;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    padding: auto;
+    float: right;
 }
 #floor-8{
     background-color: #EECBFF;
 }
+.floor-8{
+    background-color: #EECBFF;
+    width: 20%;
+    height: 58.5%;
+    border-radius: 5px;
+    float: left;
+    margin: auto;
+    padding: auto;
+}
 #floor-9{
     background-color: #FFDFBA;
+}
+.floor-9{
+    background-color: #FFDFBA;
+    width: 20%;
+    height: 38.5%;
+    float: left;
+    border-radius: 5px;
+    
 }
 #floor-10{
     background-color: #BAFFC9;
 }
+.floor-b3{
+    background-color: #BAFFC9;
+    width: 20%;
+    height: 20%;
+    float: right;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+}
 #floor-1 .second-class{
     
 background-color: #FFF4E7;
+    
+}
+.floor-1 .second-class{
+    background-color: #FFF4E7;
+    height: 90%;
 }
 #floor-2 .second-class{
     
 background-color: #E7FFEC;
+    
+}
+.floor-2 .second-class{
+    background-color: #E7FFEC;
+    height: 90%;
 }
 #floor-3 .second-class{
     
 background-color: #FFE5E7;
 }
+
+.floor-3 .second-class{
+    background-color: #FFE5E7;
+    height: 95%;
+}
 #floor-4 .second-class{
     
 background-color: #FFFFE7;
+}
+
+.floor-4 .second-class{
+    background-color: #FFFFE7;
+    height: 90%;
 }
 #floor-5 .second-class{
     
 background-color: #E7F5FF;
 }
+.floor-b1 .second-class{
+    background-color: #E7F5FF;
+}
 #floor-6 .second-class{
     
 background-color: #E7F5FF;
+}
+.floor-6 .second-class{
+    background-color: #E7F5FF;
+    height: 90%;
 }
 #floor-7 .second-class{
     
 background-color: #FFFFE7;
 }
+.floor-7 .second-class{
+    
+background-color: #FFFFE7;
+    height: 75%;
+}
 #floor-8 .second-class{
     
 background-color: #F9EDFF;
+}
+.floor-8 .second-class{
+    background-color: #F9EDFF;
 }
 #floor-9 .second-class{
     
 background-color: #FFF4E7;
 }
+.floor-9 .second-class{
+    background-color: #FFF4E7;
+}
 #floor-10 .second-class{
     
 background-color: #E7FFEC;
 }
+.floor-b3 .second-class{
+    background-color: #E7FFEC;
+    height: 75%;
+}
 .second-class{
     text-align: right;
-    padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 90%;
-    height: 87%;
-    margin: auto;
-    border-radius: 5px;
-    font-size:13;
+    width: 96%;
+    border-radius: 2px;
     direction: rtl;
+    margin: auto;
+    margin-bottom: 2px;
+    padding: auto;
+    display: block;
 }
 .second-class p{
-    height: 10%;
+    height: auto;
     margin: auto;
+    margin-top: 8px;
     margin-right: 5px;
     color: #6C7077;
 }
@@ -168,8 +306,6 @@ marquee{
     margin:auto;
     border:none;
     padding: auto;
-    padding-top: 4px;
-    font-size: auto;
     color: #2D343E;
     height: auto;
     color: #6C7077;
