@@ -83,7 +83,7 @@ textarea:focus, input:focus{
 .col-1,.col-2,.col-3,.col-4,.col-5{
     width: 20%;
     float: left;
-    height: 97%;
+    height: 96%;
     
 }
 #floor-1{
@@ -96,7 +96,6 @@ textarea:focus, input:focus{
     margin: auto;
     padding: auto;
     height: 50%;
-    border-radius: 5px;
     
 }
 #floor-2{
@@ -107,7 +106,6 @@ textarea:focus, input:focus{
     width: 100%;
     height: 50%;
     display: inline-block;
-    border-radius: 5px;
     margin: auto;
     padding: auto;
 }
@@ -120,7 +118,6 @@ textarea:focus, input:focus{
     padding: auto;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
 }
 #floor-4{
     background-color: #FFFFBA;
@@ -134,7 +131,6 @@ textarea:focus, input:focus{
     width: 100%;
     margin: auto;
     padding: auto;
-    border-radius: 5px;
 }
 #floor-5{
     background-color: #BAE1FF;
@@ -153,7 +149,6 @@ textarea:focus, input:focus{
     background-color: #BAE1FF;
     width: 100%;
     height: 50%;
-    border-radius: 5px;
     padding: auto;
 }
 #floor-7{
@@ -163,7 +158,6 @@ textarea:focus, input:focus{
     background-color: #FFFFBA;
     width: 100%;
     height: 20%;
-    border-radius: 5px;
     padding: auto;
 }
 #floor-8{
@@ -173,7 +167,6 @@ textarea:focus, input:focus{
     background-color: #EECBFF;
     width: 100%;
     height: 40%;
-    border-radius: 5px;
     padding: auto;
 }
 #floor-9{
@@ -184,7 +177,6 @@ textarea:focus, input:focus{
     width: 100%;
     height: 40%;
     float: left;
-    border-radius: 5px;
     
 }
 #floor-10{
@@ -195,7 +187,6 @@ textarea:focus, input:focus{
     width: 100%;
     height: 20%;
     float: right;
-    border-radius: 5px;
     display: block;
 }
 #floor-1 .second-class{
@@ -290,12 +281,11 @@ background-color: #E7FFEC;
     direction: rtl;
     margin: auto;
     padding: auto;
-    overflow: hidden;
 }
 .second-class p{
     height: auto;
     margin: auto;
-    padding-top: 13px;
+    padding-top: 1.2%;
     margin-right: 5px;
     color: #6C7077;
 }
