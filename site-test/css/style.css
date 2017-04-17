@@ -103,7 +103,8 @@ textarea:focus, input:focus{
     background-color: #BAFFC9;
 }
 .floor-2{
-    background-color: #BAFFC9;
+    background-color: #FFF8BA;
+    
     width: 100%;
     height: 50%;
     display: inline-block;
@@ -124,7 +125,7 @@ textarea:focus, input:focus{
     background-color: #FFFFBA;
 }
 .floor-4{
-    background-color: #FFFFBA;
+    background-color: #FFF8BA;
 }
 
 .floor-4{
@@ -156,7 +157,7 @@ textarea:focus, input:focus{
     background-color: #FFFFBA;
 }
 .floor-7{
-    background-color: #FFFFBA;
+    background-color: #BAFFC9;
     width: 100%;
     height: 20%;
     padding: auto;
@@ -201,11 +202,11 @@ background-color: #FFF4E7;
 }
 #floor-2 .second-class{
     
-background-color: #E7FFEC;
+background-color: #FFFDE5;
     
 }
 .floor-2 .second-class{
-    background-color: #E7FFEC;
+    background-color: #FFFFE7;
     height: 90%;
 }
 #floor-3 .second-class{
@@ -220,7 +221,7 @@ background-color: #FFE5E7;
 }
 #floor-4 .second-class{
     
-background-color: #FFFFE7;
+background-color: #FFFDE5;
 }
 
 .floor-4 .second-class{
@@ -233,7 +234,7 @@ background-color: #E7F5FF;
 }
 .floor-b1 .second-class{
     background-color: #E7F5FF;
-    height: 93%;
+    height: 93.5%;
 }
 #floor-6 .second-class{
     
@@ -244,13 +245,13 @@ background-color: #E7F5FF;
     height: 90%;
 }
 #floor-7 .second-class{
-    
-background-color: #FFFFE7;
+ background-color: #E7FFEC;   
+
 }
 .floor-7 .second-class{
     
-background-color: #FFFFE7;
-    height: 80%;
+    background-color: #E7FFEC;
+    height: 75%;
 }
 #floor-8 .second-class{
     
@@ -279,7 +280,7 @@ background-color: #E7FFEC;
 .second-class{
     text-align: right;
     width: 96%;
-    border-radius: 2px;
+    border-radius: 5px;
     direction: rtl;
     margin: auto;
     padding: auto;
