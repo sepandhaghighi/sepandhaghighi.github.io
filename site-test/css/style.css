@@ -11,11 +11,24 @@
           url("fonts/Sans_medium.woff") format("woff"),
           url("fonts/Sans_medium.ttf") format("truetype"); 
 }
+
+@font-face {
+    font-family: "opensans";
+    src:url("fonts/OpenSans-Bold.eot?#") format("eot"),    
+          url("fonts/OpenSans-Bold.woff") format("woff"),
+          url("fonts/OpenSans-Bold.ttf") format("truetype"); 
+}
+
+
 #body-index{
         margin: auto;
     height: 100%;
             background-color: #FAFAFA;
     }
+
+.english{
+    font-family: "opensans";
+}
 #page-screen{
     overflow-y:hidden;
 }
