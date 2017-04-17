@@ -215,7 +215,7 @@ background-color: #FFE5E7;
 .floor-3 .second-class{
     background-color: #FFE5E7;
     height: 95%;
-    font-size: 14px;
+    font-size: 15px;
 }
 #floor-4 .second-class{
     
@@ -286,7 +286,7 @@ background-color: #E7FFEC;
 .second-class p{
     height: auto;
     margin: auto;
-    padding-top: auto;
+    padding-top: 1.2%;
     margin-right: 5px;
     color: #6C7077;
 }
