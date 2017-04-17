@@ -45,7 +45,7 @@ $(document).ready(function(){
     $("#week-table").persiaNumber();
     $("#mobile-table").persiaNumber();
     $(".floor-table").persiaNumber();
-    $("#body-screen").persiaNumber();
+    $(".farsi").persiaNumber();
 });
 
 $(window).scroll(function() {

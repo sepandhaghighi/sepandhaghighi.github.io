@@ -290,6 +290,7 @@ background-color: #E7FFEC;
     direction: rtl;
     margin: auto;
     padding: auto;
+    overflow: hidden;
 }
 .second-class p{
     height: auto;
