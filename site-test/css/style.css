@@ -1167,12 +1167,24 @@ margin: auto;
     width: 95%;
     }
     #page-body #mobile-table{
-        display: block;
+        display: none;
         margin-bottom: 70px;
     }
-    #page-body #week-table{
-        display: none;
+    #page-body #week-table table{
+        width: 95%;
+        
     }
+    
+    #week-table td{
+    width: auto;
+    text-align: center;
+    overflow:hidden;
+    border: 1px solid #2D343E;
+    border-collapse: collapse;
+    color: #6C7077;
+    font-size: 10px;
+}
+    
     #menu{
         height: 100px;
  
