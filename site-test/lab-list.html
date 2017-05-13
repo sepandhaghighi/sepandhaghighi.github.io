@@ -1,0 +1,432 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <title>سامانه اطلاع رسانی ساختمان ابوریحان</title>
+    </head>
+    <body id="body-index">
+        <div class="banner">
+            
+            <div id="right-image">
+                <img src="images/eeLogoWhite.png" height="100px" width="100px"/>
+                
+            </div>
+            <div id="topic">
+                <p>سامانه اطلاع رسانی ساختمان ابوریحان</p>
+            </div>
+            <div id="left-image">
+                <img src="images/autLogoWhite.png" height="100px" width="100px"/>
+            </div>
+             
+        </div>
+        <div id="menu">
+        <div id="search">
+            <input  type="text" id="db_search" name="search" placeholder=&#128270; onclick="search_hide();" style="text-indent:17px;"  onmouseout="search_view();">
+        </div>
+        <div class="topnav" id="myTopnav">
+         <a href="floortable.html">جدول راهنمای طبقات</a>
+            <a href="#map">نقشه طبقات</a>
+            <a href="list.html">برنامه هفتگی اساتید</a>
+            <a href="#labs">آزمایشگاه ها</a>
+            <a href="notif.html">اطلاعیه ها</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" id="mobile-icon">&#9776;</a>
+        </div>
+        </div>
+        <div id="page-body">
+            <div class="table-search">
+                <input type="text" name="table-search" placeholder="جستجو در جدول " onkeyup="all_search();" id="myinput">
+            </div>
+            
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>شماره</th>
+                        
+                        <th>گروه</th>
+                        <th>سرپرست</th>
+                        <th>آزمایشگاه</th>
+                    </tr>
+                    <tr>
+                        <td>315</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  صیادیان</td>
+                        <td>پردازش اطلاعات</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>611</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  قربانی</td>
+                        <td> رادار</td>
+                    
+                    </tr>
+                    
+                     <tr>
+                        <td>614</td>
+                         <td>مخابرات</td>
+                        <td>دکتر  صراف شیرازی<br/>دکتر مرادی</td>
+                        <td>انتشار امواج و اندازه گیری مایکروویو</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>607</td>
+                        <td>مخابرات</td>
+                        <td>دکتر معینی مازندرانی <br/>دکتر  صادقی</td>
+                        <td>الکترومغناطیس و تست غیرمخرب</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>104</td>
+                        <td>مخابرات</td>
+                        <td>دکتر محمدی</td>
+                        <td>پژوهشکده مخابرات و الکترومغناطیس کاربردی</td>
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>611</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  عبدی پور</td>
+                        <td>مایکروویو و موج میلیمتری</td>
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>611</td>
+                        <td>مخابرات</td>
+                        <td>دکتر محمدی</td>
+                        <td>مایکروویو و مخابرات بدون سیم</td>
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>210</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  آقایی نیا</td>
+                        <td>مخابرات طیف گسترده</td>
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>112</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  شیخ زاده نجار</td>
+                        <td>پردازش سیگنال های چندرسانه ای</td>
+                    
+                    
+                    </tr>
+                    
+                       <tr>
+                        
+                        <td>307</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  امین داور</td>
+                        <td>مخابرات دیجیتال</td>
+                    
+                    
+                    </tr>
+                    
+                       <tr>
+                        
+                        <td>607</td>
+                        <td>مخابرات</td>
+                        <td>دکتر  معینی مازندران <br/>دکتر صادقی <br/>دکتر  توکلی</td>
+                        <td>الکترومغناطیس کاربردی</td>
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>205</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر  اسداله راعی</td>
+                        <td>ربات های سیار</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>316</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر  طاهری قزوینی</td>
+                        <td>سویچینگ و شبکه</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>309</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر کاتوزیان</td>
+                        <td>فتونیک</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>321</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر  رضایی</td>
+                        <td>اتوماسیون و سیستم های هوشمند</td>
+                        
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>305</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر احدی سرکانی</td>
+                        <td>پردازش گفتار</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>203</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر  فایز</td>
+                        <td>بینایی ماشین و شبکه های بی سیم موردی</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>111</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر  یاوری</td>
+                        <td>طراحی مدار های مجتمع</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>305</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر غفوری فرد</td>
+                        <td>نیمه هادی ها</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>325</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر معتمدی</td>
+                        <td>سیستم های هوشمند دیجیتال</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>322</td>
+                        <td>الکترونیک</td>
+                        <td>دکتر شالچیان</td>
+                        <td>الکترونیک پیشرفته خودرو</td>
+                    
+                    
+                    
+                    </tr>
+                    <tr>
+                        
+                        <td>306</td>
+                        <td>کنترل</td>
+                        <td>دکتر  افشار</td>
+                        <td>اتوماسیون و فناوری اطلاعات</td>
+                    
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>11</td>
+                        <td>کنترل</td>
+                        <td>دکتر عبدالهی</td>
+                        <td>کنترل سیستم های چندوسیله ای</td>
+                    
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td></td>
+                        <td>کنترل</td>
+                        <td>دکتر  کراری</td>
+                        <td>سیستم های بادی</td>
+                    
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>600</td>
+                        <td>کنترل</td>
+                        <td>دکتر  طالبی</td>
+                        <td>سیستم های بلادرنگ و رباتیک</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                       <tr>
+                        
+                        <td></td>
+                        <td>کنترل</td>
+                        <td>دکتر  منهاج<br/> دکتر  افشار</td>
+                        <td>هوش محاسباتی و سیستم های ابعاد وسیع</td>
+                    
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>613</td>
+                        <td>کنترل</td>
+                        <td>دکتر  نیکروش</td>
+                        <td>پایداری سیستم های دینامیکی</td>
+                    
+                    
+                    
+                    </tr>
+                       <tr>
+                        
+                        <td>916</td>
+                        <td>کنترل</td>
+                        <td>دکتر صورتگر</td>
+                        <td>کنترل ابعاد کوچک و صنعتی</td>
+                    
+                    
+                    
+                    </tr>
+                    
+                    <tr>
+                        <td>13</td>
+                        <td>قدرت</td>
+                        <td>دکتر میرسلیم</td>
+                        <td>آزمایشگاه پژوهشی طراحی و ساخت ماشین های الکتریکی و ترانسفورمر</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>102</td>
+                        <td>قدرت</td>
+                        <td>دکتر  قره پتیان</td>
+                        <td>آزمایشگاه تحقیقاتی سیستمهای قدرت و شبیه ساز بلدرنگ سیستم های قدرت</td>
+                    
+                    </tr>
+                     <tr>
+                        <td>102</td>
+                        <td>قدرت</td>
+                        <td>دکتر قره پتیان</td>
+                        <td>انعطاف پذیر ACآزمایشگاه انتقال</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>900</td>
+                        <td>قدرت</td>
+                        <td>دکتر  قره پتیان</td>
+                        <td>پژوهشکده بهره برداری ایمن شبکه</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>قدرت</td>
+                        <td>دکتر مغانی</td>
+                        <td>آزمایشگاه تحقیقاتی اجزا محدود</td>
+                    </tr>
+                    <tr>
+                        <td>308</td>
+                        <td>قدرت</td>
+                        <td>دکتر عسکریان ابیانه</td>
+                        <td>آزمایشگاه تحقیقاتی حفاظت سیستم های قدرت</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>11</td>
+                        <td>قدرت</td>
+                        <td>دکتر میلی منفرد<br/> دکتر فتحی <br/>دکتر مغانی<br/> دکتر عابدی <br/>دکتر ریاحی</td>
+                        <td>آزمایشگاه تحقیقاتی محرکه های الکتریکی و الکترونیک قدرت</td>
+                    </tr>
+                    <tr>
+                        <td>207</td>
+                        <td>قدرت</td>
+                        <td>دکتر حسینیان</td>
+                        <td>آزمایشگاه تحقیقاتی کیفیت توان</td>
+                    </tr>
+                    <tr>
+                        <td>106</td>
+                        <td>قدرت</td>
+                        <td>دکتر صادقی<br/> دکتر معینی مازندارنی</td>
+                        <td>آزمایشگاه تحقیقاتی مرکز تایید نمونه سازگاری الکترومغناطیس</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>قدرت</td>
+                        <td>دکتر عابدی<br/> دکتر ریاحی</td>
+                        <td>آزمایشگاه انرژی بادی</td>
+                    </tr>
+                    <tr>
+                        <td>310</td>
+                        <td>قدرت</td>
+                        <td>دکتر کوهساری</td>
+                        <td>آزمایشگاه آنالیز سیستم های قدرت</td>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>قدرت</td>
+                        <td>دکتر محمدی اردهالی</td>
+                        <td>آزمایشگاه سیستمهای انرژی</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>قدرت</td>
+                        <td>دکتر وحیدی</td>
+                        <td>آزمایشگاه فشارقوی</td>
+                    </tr>
+                    <tr>
+                        <td>208</td>
+                        <td>قدرت</td>
+                        <td>دکتر رستگار</td>
+                        <td>آزمایشگاه الکترونیک صنعتی</td>
+                    </tr>
+                </table>
+            
+            </div>
+            <p id="search-message">نتیجه ای یافت نشد</p>
+        </div>
+        <div id="login-footer">
+        <p> ایده پردازان فناور ماورا &#169 1395</p>
+    </div>
+            <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/underscore.js"></script>
+        <script src="js/persianumber.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/mark.min.js" charset="UTF-8"></script>
+    </body>
+
+
+
+
+</html>
