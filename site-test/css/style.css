@@ -466,6 +466,7 @@ marquee{
     margin-left: 24%;
     color: white;
     width: 3%;
+    display: none;
 }
 .topnav {
     overflow: hidden;
