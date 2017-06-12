@@ -1277,7 +1277,10 @@ margin: auto;
     display: block;
     text-align: right;
     font-size: 45px;
-    margin-right: 60px;
+    margin-right: 1px;
+  }
+    .topnav.responsive a:first-child {
+    margin-top: 90px;
   }
 
    .form #error-message{
