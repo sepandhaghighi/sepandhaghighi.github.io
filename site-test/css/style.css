@@ -590,6 +590,10 @@ marquee{
     height: 55%;
     width: 70%;
 }
+.lab-pic img{
+    max-width: 71%;
+    margin-bottom: 30px;
+}
 
 /* When the input field gets focus, change its width to 100% */
 
@@ -602,6 +606,15 @@ marquee{
     color: white;
     background-color: #2196F3;
     
+}
+#page-body #lab-banner{
+     width: 71%;
+    border:1px solid #2D343E;
+    border-radius: 6px;
+    margin: auto;
+    margin-bottom: 2%;
+    color: white;
+    background-color: #2196F3;
 }
 #page-body #table-banner,#map-banner p{
     margin-top:2px;
@@ -762,7 +775,29 @@ text-decoration: none;
     height: 20%;
     overflow-y: scroll;
 }
+#page-body .lab-desc .desc-body{
+    border: 1px solid #2D343E;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align:justify;
+    direction: ltr;
+    width: 70%;
+    padding: 8px;
+    margin: 0 auto auto auto;
+    margin-bottom: 30px;
+    color: #6C7077;
+    background-color: white;
+    height: auto;
+}
+#page-body .lab-desc .desc-body ul{
+    direction: rtl;
+}
 #page-body .notif .notif-body p{
+    direction: rtl;
+    margin: auto;
+}
+#page-body .lab-desc .desc-body p{
     direction: rtl;
     margin: auto;
 }
@@ -782,12 +817,36 @@ text-decoration: none;
     color: white;
     
 }
+#page-body .lab-desc .desc-header{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 70%;
+    height: 3%;
+    margin: auto;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: right;
+    background-color: #2196F3;
+    color: white;
+    
+}
 #page-body .notif .notif-header p{
     
 margin: auto;
     
 }
+#page-body .lab-desc .desc-header p{
+    
+margin: auto;
+    
+}
 #page-body .notif{
+    margin-bottom: 100px;
+}
+#page-body .lab-desc{
     margin-bottom: 100px;
 }
 #page-body .admin-notif
@@ -1124,7 +1183,22 @@ margin: auto;
         padding: 25;
         
     }
+    #page-body .lab-desc .desc-body{
+    width: 90%;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 15px;
+        padding: 25;
+        
+    }
     #page-body .notif .notif-header{
+         width: 90%;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 15px;
+        padding: 25;
+    }
+     #page-body .lab-desc .desc-header{
          width: 90%;
     font-size: 40px;
     margin: auto;
@@ -1165,6 +1239,10 @@ margin: auto;
     
     #page-body #table-banner,#map-banner{
     font-size: 35px;
+    width: 95%;
+    }
+    #page-body #lab-banner{
+        font-size: 35px;
     width: 95%;
     }
     #page-body #mobile-table{
@@ -1252,6 +1330,10 @@ margin: auto;
     
 }
     #body-index #map img{
+        width: 95%;
+        margin-bottom: 100px;
+    }
+    .lab-pic img{
         width: 95%;
         margin-bottom: 100px;
     }
