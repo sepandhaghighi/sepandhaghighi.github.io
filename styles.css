@@ -53,7 +53,7 @@ a{
     text-decoration: none;
     opacity: 1;
     transition: opacity 5s;
-}
+    font-weight: bold;}
 
 a:hover{
     color:chocolate;
@@ -84,7 +84,7 @@ table.menu_right{
 }
 
 .main_part{
-    text-align: center;
+    text-align: left;
 }
 .page_change{
     text-align: center;
