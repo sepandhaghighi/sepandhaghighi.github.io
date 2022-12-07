@@ -135,6 +135,10 @@ hr{
     text-align: justify;
 }
 
+.project_links{
+    text-align: center;
+}
+
 @media all and (max-width: 1024px) {
 
     body{
