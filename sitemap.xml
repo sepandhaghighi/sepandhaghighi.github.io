@@ -6,136 +6,62 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.shaghighi.ir/</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/index.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/index.html</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/resume.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/resume.html</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/openproject.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject.html</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/ta.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/gallery.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/reports.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/sepandhaghighi_cv.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/sepandhaghighi_cv.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/pylist/index.html</loc>
-  <lastmod>2016-07-09T07:31:06+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/Diagnosis%20System%20For%20Fish%20Diseases.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/pyIP/index.html</loc>
-  <lastmod>2016-05-06T20:27:41+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/AlexanderGonzaloDeSa.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/openproject/files/ETCHING.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/ClassifyMe.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/openproject/files/Git.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/joss.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/openproject/files/Readme.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/SQL%20Comprehension%20and%20Synthesis.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.shaghighi.ir/openproject/files/Semantic%20Processing.ppt</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://www.sepand.tech/openproject/files/10.21105.joss.00331.pdf</loc>
+  <lastmod>2022-12-07T16:38:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/Semantic%20Processing.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/Peltier.pptx</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/Seebeck%20Wall%20Final%20Report.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/VLSI%20Final%20Report.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/Final%20Report.pdf</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/AntColony&amp;Neural%20Network.docx</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/openproject/files/Matrix.Project.docx</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.shaghighi.ir/timelapse.html</loc>
-  <lastmod>2016-09-21T21:20:16+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
+
+
 </urlset>
