@@ -18,6 +18,7 @@ body{
 	font-size : 12px;
 	font-family: Florence, cursive;
 	margin-bottom : 5px;
+    text-align: center;
 }
 .link_size{
     font-size : 15px;
@@ -128,6 +129,10 @@ hr{
 
 .resume img{
     width: 600px;
+}
+
+.justify{
+    text-align: justify;
 }
 
 @media all and (max-width: 1024px) {
