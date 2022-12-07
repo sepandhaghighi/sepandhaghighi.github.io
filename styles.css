@@ -28,7 +28,13 @@ body{
     padding-bottom: 10px;
     border-radius: 23px;
     margin-bottom: 12px;
+    text-align: center;
 }
+
+.link_size a{
+    margin: 5px;
+}
+
 img{
     margin-top: 10px;
 }
@@ -115,23 +121,35 @@ hr{
     width: 50px;
 }
 
+.resume{
+    text-align: center;
+    display: block;
+}
+
+.resume img{
+    width: 600px;
+}
+
 @media all and (max-width: 1024px) {
 
     body{
         color : black;
         font-size : 37px;
-        font-family: monospace;
     }
     .main_part{
     text-align: left;
 }
     .link_size{
         font-size : 42px;
+        display: inline;
+    }
+    
+    .link_size a{
         display: block;
     }
     
-    footer{
-        display: none;
+    .footer-size{
+        font-size : 20px;
     }
     #slidebar{
         width: 400px;
@@ -146,6 +164,10 @@ hr{
     .contact_menu img{
     width: 100px;
     }
+    
+    .resume img{
+    width: 95%;
+}
 
 
 }
@@ -154,14 +176,16 @@ hr{
 @media all and (max-width: 768px) {
     body{
         font-size : 37px;
-        font-family:monospace;
         
     }
     .link_size{
         font-size : 42px;
-        display: block;
+        display: inline;
     }
     
+    .link_size a{
+        display: block;
+    }
      .page_change{
         display: none;
     }
@@ -171,6 +195,10 @@ hr{
     .contact_menu img{
     width: 100px;
     }
+    
+        .resume img{
+    width: 95%;
+}
 }
 @keyframes anim{
     0%{transform:rotate(45deg);}
