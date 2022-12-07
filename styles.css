@@ -74,16 +74,6 @@ a:hover{
     animation-iteration-count: infinite;
     
 }
-table.menu_right{
-    display : none;
-    border-collapse:separate;
-    border-spacing: 20px;
-    border-width:thick;
-    border-style:solid;
-    caption-side: top;
-    border-radius: 23px;
-    background:linear-gradient(orange,white);
-}
 
 .main_part{
     text-align: left;
@@ -121,10 +111,13 @@ hr{
     display: block;
 }
 
+.contact_menu img{
+    width: 50px;
+}
+
 @media all and (max-width: 1024px) {
 
     body{
-        background: azure;
         color : black;
         font-size : 37px;
         font-family: monospace;
@@ -134,16 +127,9 @@ hr{
 }
     .link_size{
         font-size : 42px;
-        display: none;
+        display: block;
     }
-    table.menu_right{
-        margin-top: 100px;
-        margin-right:10px;
-        display : block;
-        float : right;
-        font-size : 32px;
-        
-    }
+    
     footer{
         display: none;
     }
@@ -154,6 +140,12 @@ hr{
     .page_change{
         display: none;
     }
+    .profile_pic img{
+    width: 95%;
+    }
+    .contact_menu img{
+    width: 100px;
+    }
 
 
 }
@@ -161,22 +153,23 @@ hr{
 /* mobile phone */
 @media all and (max-width: 768px) {
     body{
-        background:darkcyan;
         font-size : 37px;
         font-family:monospace;
         
     }
     .link_size{
         font-size : 42px;
-        display: none;
+        display: block;
     }
-      table.menu_right{
-        display : block;
-        float : right;
-        font-size : 32px;
-    }
+    
      .page_change{
         display: none;
+    }
+    .profile_pic img{
+    width: 95%;
+    }
+    .contact_menu img{
+    width: 100px;
     }
 }
 @keyframes anim{
