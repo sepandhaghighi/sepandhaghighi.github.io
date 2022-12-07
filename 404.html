@@ -1,19 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Page not found</title>
-        <link href="404styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Welcome to my homepage. I am an independent AI/ML researcher and computer programmer.">
+        <meta property="og:title" content="Sepand Haghighi">
+        <meta name="og:description" content="Welcome to my homepage. I am an independent AI/ML researcher and computer programmer.">
+        <meta property="og:site_name" content="Sepand Haghighi">
+        <meta property="og:image" content="https://www.sepand.tech/profile.jpg">
+        <style type="text/css">
+            body{
+                background-color: azure;
+                text-align: center;
+                display: block;
+            }
+            
+            .return{
+                text-align: center;
+                margin-top: 50px;
+            }
+            a{
+              font-size:26px;
+              border:4px solid;
+              border-radius:23px;
+              text-decoration:None;
+              padding:8px;
+              text-align: center;
+              font-weight: bold;
+            }
+            
+            img{
+                margin-top: 100px;
+                width: 400px;
+            }
+            @media all and (max-width: 1024px) {
+            img{
+                width: 300px;
+            }
+            }
+        </style>
     </head>
     <body>
-        <div style="margin-top:200px;text-align:center;">
-            <p style="font-size:26px">Sepand Haghighi Homepage</p>
-            <br/>
-        </div>
-        <div style="margin-top:50px;text-align:center;">
-            <img src="http://www.sepand.tech/photos/404_error.png"/>
-            <br/>
-        </div>
-        <div style="margin-top:80px;text-align:center;">
-            <a style="font-size:26px;background:azure;border:2px solid;border-radius:23px;text-decoration:None;padding:5px;" href="http://www.sepand.tech">Home</a>
+        <img src="http://www.sepand.tech/photos/404_error.png" alt="404">
+        <div class="return">
+            <a href="http://www.sepand.tech">Home</a>
         </div>
     </body>
 </html>
