@@ -12,6 +12,8 @@ body{
     padding-right : 10px;
 	background: azure;
 }
+
+
 .footer-size{
 	font-size : 12px;
 	font-family: Florence, cursive;
@@ -108,6 +110,15 @@ hr{
     animation-name:anim3;
     animation-duration:3s;
     animation-iteration-count: 1;
+}
+
+.profile_pic img{
+    width: 320px;
+}
+
+.profile_pic{
+    text-align: center;
+    display: block;
 }
 
 @media all and (max-width: 1024px) {
