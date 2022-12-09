@@ -75,10 +75,9 @@ a:hover{
     padding:7px 7px 7px 7px;
     margin-bottom: 20px;
 }
+
 .contact:hover{
-    animation-name: anim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    opacity: 0.3;
     
 }
 
@@ -97,16 +96,6 @@ hr{
 
 #slidebar{
     border:7px solid chocolate;
-}
-#resume_image{
-    animation-name: anim2;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-}
-#profile_image{
-    animation-name:anim3;
-    animation-duration:3s;
-    animation-iteration-count: 1;
 }
 
 .profile_pic img{
@@ -208,26 +197,4 @@ hr{
         .resume img{
     width: 95%;
 }
-}
-@keyframes anim{
-    0%{transform:rotate(45deg);}
-    25%{transform:rotate(90deg);}
-    50%{transform:rotate(180deg);}
-    75%{transform:rotate(270deg);}
-    100%{transform:rotate(360deg);}
-}
-
-@keyframes anim2{
-    0%{transform:scale(4,4);}
-    25%{transform:rotate(6deg);}
-    50%{transform:rotate(-6deg);}
-    75%{transform:rotate(15deg);}
-    100%{transform:rotate(-15deg);}
-}
-@keyframes anim3{
-    0%{transform:scale(2,2);}
-    25%{transform:rotate(3deg);}
-    50%{transform:rotate(-3deg);}
-    75%{transform:rotate(5deg);}
-    100%{transform:rotate(-5deg);}
 }
