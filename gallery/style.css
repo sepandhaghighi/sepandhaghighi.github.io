@@ -48,6 +48,7 @@ body{
  div.gallery img {
      width: 100%;
      padding: 6px;
+     object-fit: cover;
 }
 
  div.desc {
