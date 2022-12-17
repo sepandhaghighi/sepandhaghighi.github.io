@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "overpass";
+    src: url("fonts/overpass.ttf");
+}
+
 
 body{
-	font-family: Florence, cursive;
+	font-family: "overpass";
 	margin-bottom : 50px;
 	margin-left : 50px;
 	margin-right : 50px;
@@ -16,13 +21,12 @@ body{
 
 .footer-size{
 	font-size : 12px;
-	font-family: Florence, cursive;
+	font-family: "overpass"
 	margin-bottom : 5px;
     text-align: center;
 }
 .link_size{
     font-size : 15px;
-    font-family: Florence, cursive;
     background : linear-gradient(rgb(193, 230, 162),white);
     padding-top: 12px;
     margin-top: 4px;

@@ -1,11 +1,15 @@
+@font-face {
+    font-family: "overpass";
+    src: url("../fonts/overpass.ttf");
+}
 
 body{
-     font-family: Florence, cursive;
+     font-family: "overpass";
 	 background: azure;
 }
 .link_size{
     font-size : 15px;
-    font-family: Florence, cursive;
+    font-family: "overpass";
     background : linear-gradient(rgb(193, 230, 162),white);
     padding-top: 12px;
     margin-top: 4px;
